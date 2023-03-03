@@ -12,5 +12,6 @@ Gem::Specification.new do |s|
   s.require_path = '.'
 
   s.add_dependency "optparse"
+  s.add_dependency "dotenv"
   s.add_development_dependency "rspec"
 end

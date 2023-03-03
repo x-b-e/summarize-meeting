@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.5.0)
+    dotenv (2.8.1)
     optparse (0.3.1)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
@@ -21,6 +22,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  dotenv
   optparse
   rspec
 

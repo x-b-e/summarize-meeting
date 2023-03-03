@@ -4,3 +4,4 @@ source "https://rubygems.org"
 
 gem "optparse"
 gem "rspec"
+gem "dotenv"
