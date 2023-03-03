@@ -62,7 +62,7 @@ module SummarizeMeeting
     def summarize
 
       # Step 1. Split the transcript into lines.
-      lines = transcript.split("\n")
+      lines = transcript.lines
 
       # Step 2. Calculate the maximum chunk size in words.
       max_total_tokens = 4000

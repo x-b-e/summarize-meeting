@@ -8,6 +8,7 @@ Gem::PackageTask.new(spec) do |pkg|
 end
 
 task release: [:package] do
-  gem_file = Dir.glob("pkg/*.gem").last
+  files = Dir.glob("pkg/*.gem")
+  gem_file = files.sort.last
   sh "gem push #{gem_file}"
 end

@@ -44,9 +44,10 @@ def main
   end
 
   transcript_file = ARGV[0]
-  transcript = File.read(transcript_file)
+  transcript = File.read(transcript_file, encoding: "UTF-8")
 
   meeting = SummarizeMeeting::Meeting.new(transcript)
+
   summary = meeting.summarize
   summary_file_name = if options[:output_file]
     options[:output_file]
