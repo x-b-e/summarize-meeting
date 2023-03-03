@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "summarize-meeting"
-  s.version     = "0.1.2"
+  s.version     = "0.2.0"
   s.summary     = "A command line utility that summarizes a meeting"
   s.description = "A command line utility that summarizes a meeting using generative language models."
   s.license     = "MIT"
@@ -9,8 +9,9 @@ Gem::Specification.new do |s|
   s.email       = "sean-devine@x-b-e.com"
 
   s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting", "README.md", "LICENSE.txt"]
-  s.executables = ["summarize-meeting"]
-  s.require_path = '.'
+  s.bindir      = "bin"
+  s.executables << "summarize-meeting"
+  s.require_path = ["lib"]
 
   s.add_dependency "optparse"
   s.add_dependency "ruby-openai"

@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require "optparse"
-
-require_relative "../lib/meeting"
+require "pry"
+require_relative "../lib/summarize-meeting"
 
 def main
   options = {}
@@ -19,8 +19,8 @@ def main
       options[:output_file] = file
     end
 
-    if ENV["OPENAI_KEY"]
-      options[:openai_key] = ENV["OPENAI_KEY"]
+    if ENV["OPENAI_API_KEY"]
+      options[:openai_key] = ENV["OPENAI_API_KEY"]
     end
 
     opts.on("-k", "--openai-key KEY", "The OpenAI API key to use") do |key|
@@ -36,8 +36,8 @@ def main
     end
   end.parse!
 
-  Ai.access_token = options[:openai_key] if options[:openai_key]
-  Ai.organization_id = options[:openai_org] if options[:openai_org]
+  SummarizeMeeting::Ai.access_token = options[:openai_key] if options[:openai_key]
+  SummarizeMeeting::Ai.organization_id = options[:openai_org] if options[:openai_org]
 
   if ARGV.length != 1
     puts "Error: You must specify a transcript file to summarize."
@@ -47,7 +47,7 @@ def main
   transcript_file = ARGV[0]
   transcript = File.read(transcript_file)
 
-  meeting = Meeting.new(transcript)
+  meeting = SummarizeMeeting::Meeting.new(transcript)
   summary = meeting.summarize
   summary_file_name = if options[:output_file]
     options[:output_file]
