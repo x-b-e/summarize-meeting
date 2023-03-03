@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Sean Devine"]
   s.email       = "sean-devine@x-b-e.com"
 
-  s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting.rb"]
-  s.executables = ["summarize-meeting.rb"]
+  s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting"]
+  s.executables = ["summarize-meeting"]
   s.require_path = '.'
 
   s.add_dependency "optparse"
