@@ -1,18 +1,18 @@
 Gem::Specification.new do |s|
   s.name        = "summarize-meeting"
-  s.version     = '0.1.1'
+  s.version     = "0.1.2"
   s.summary     = "A command line utility that summarizes a meeting"
   s.description = "A command line utility that summarizes a meeting using generative language models."
+  s.license     = "MIT"
 
   s.authors     = ["Sean Devine"]
   s.email       = "sean-devine@x-b-e.com"
 
-  s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting"]
+  s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting", "README.md", "LICENSE.txt"]
   s.executables = ["summarize-meeting"]
   s.require_path = '.'
 
   s.add_dependency "optparse"
-  s.add_dependency "dotenv"
   s.add_dependency "ruby-openai"
   s.add_dependency "mustache"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"
+  s.add_development_dependency "dotenv"
 end
