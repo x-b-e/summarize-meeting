@@ -13,5 +13,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "optparse"
   s.add_dependency "dotenv"
+  s.add_dependency "ruby-openai"
+
   s.add_development_dependency "rspec"
 end
