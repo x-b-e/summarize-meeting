@@ -8,7 +8,15 @@ Gem::Specification.new do |s|
   s.authors     = ["Sean Devine"]
   s.email       = "sean-devine@x-b-e.com"
 
-  s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting", "README.md", "LICENSE.txt"]
+  s.files       = [
+    "lib/summarize-meeting.rb",
+    "lib/summarize-meeting/version.rb",
+    "lib/summarize-meeting/ai.rb",
+    "lib/summarize-meeting/meeting.rb",
+    "bin/summarize-meeting",
+    "README.md",
+    "LICENSE.txt"
+  ]
   s.bindir      = "bin"
   s.executables << "summarize-meeting"
   s.require_path = ["lib"]
