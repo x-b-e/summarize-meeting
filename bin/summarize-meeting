@@ -58,6 +58,6 @@ def main
   File.write(summary_file_name, summary)
 end
 
-if __FILE__ == $0
+if __FILE__.to_s.end_with?("summarize-meeting") && $0.to_s.end_with?("summarize-meeting")
   main
 end
