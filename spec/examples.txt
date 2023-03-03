@@ -1,0 +1,4 @@
+example_id                        | status | run_time        |
+--------------------------------- | ------ | --------------- |
+./spec/lib/meeting_spec.rb[1:1]   | passed | 0.00041 seconds |
+./spec/lib/meeting_spec.rb[1:2:1] | failed | 0.00118 seconds |

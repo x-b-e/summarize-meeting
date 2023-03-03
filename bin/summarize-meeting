@@ -1,0 +1,65 @@
+#!/usr/bin/env ruby
+
+require "optparse"
+require "dotenv/load"
+
+require_relative "../lib/meeting"
+
+def main
+  options = {}
+
+  OptionParser.new do |opts|
+    opts.banner = "Usage: summarize-meeting.rb [options] input-file"
+
+    opts.on("-h", "--help", "Prints this help") do
+      puts opts
+      exit
+    end
+
+    opts.on("-o", "--output-file FILE", "The file to write the summary to") do |file|
+      options[:output_file] = file
+    end
+
+    if ENV["OPENAI_KEY"]
+      options[:openai_key] = ENV["OPENAI_KEY"]
+    end
+
+    opts.on("-k", "--openai-key KEY", "The OpenAI API key to use") do |key|
+      options[:openai_key] = key
+    end
+
+    if ENV["OPENAI_ORG"]
+      options[:openai_org] = ENV["OPENAI_ORG"]
+    end
+
+    opts.on("-g", "--openai-org ORG", "The OpenAI organization ID to use") do |org|
+      options[:openai_org] = org
+    end
+  end.parse!
+
+  Ai.access_token = options[:openai_key] if options[:openai_key]
+  Ai.organization_id = options[:openai_org] if options[:openai_org]
+
+  if ARGV.length != 1
+    puts "Error: You must specify a transcript file to summarize."
+    exit 1
+  end
+
+  transcript_file = ARGV[0]
+  transcript = File.read(transcript_file)
+
+  meeting = Meeting.new(transcript)
+  summary = meeting.summarize
+  summary_file_name = if options[:output_file]
+    options[:output_file]
+  else
+    transcript_file_basename = File.basename(transcript_file, ".*")
+    summary_file_name = "#{transcript_file_basename}-summary.txt"
+  end
+
+  File.write(summary_file_name, summary)
+end
+
+if __FILE__ == $0
+  main
+end

@@ -7,13 +7,17 @@ Gem::Specification.new do |s|
   s.authors     = ["Sean Devine"]
   s.email       = "sean-devine@x-b-e.com"
 
-  s.files       = ["summarize-meeting.rb"]
-  s.executables = ["summarize-meeting"]
+  s.files       = [*Dir.glob("lib/**/*"), "bin/summarize-meeting.rb"]
+  s.executables = ["summarize-meeting.rb"]
   s.require_path = '.'
 
   s.add_dependency "optparse"
   s.add_dependency "dotenv"
   s.add_dependency "ruby-openai"
+  s.add_dependency "mustache"
 
   s.add_development_dependency "rspec"
+  s.add_development_dependency "guard-rspec"
+  s.add_development_dependency "vcr"
+  s.add_development_dependency "webmock"
 end
