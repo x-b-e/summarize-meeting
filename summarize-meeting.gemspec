@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "summarize-meeting"
-  s.version     = "1.1.0"
+  s.version     = "1.3.0"
   s.summary     = "A command line utility that summarizes a meeting"
   s.description = "A command line utility that summarizes a meeting using generative language models."
   s.license     = "MIT"
@@ -30,4 +30,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"
   s.add_development_dependency "dotenv"
+  s.add_development_dependency "pry"
 end
