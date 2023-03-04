@@ -1,4 +1,5 @@
 require "spec_helper"
+require "pry"
 
 module SummarizeMeeting
   RSpec.describe Meeting do

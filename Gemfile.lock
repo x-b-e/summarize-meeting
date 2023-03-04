@@ -80,6 +80,7 @@ DEPENDENCIES
   guard-rspec
   mustache
   optparse
+  pry
   rspec
   ruby-openai
   vcr

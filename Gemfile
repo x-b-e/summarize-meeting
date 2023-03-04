@@ -12,4 +12,5 @@ group :development, :test do
   gem "guard-rspec"
   gem "vcr"
   gem "webmock", require: false
+  gem "pry"
 end

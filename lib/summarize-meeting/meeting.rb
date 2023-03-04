@@ -13,7 +13,7 @@ module SummarizeMeeting
       },
       {
         role: "system",
-        content: "The transcript of the meeting is split into {{chunkCount}} chunks. This is the {{chunkIndex}} chunk.",
+        content: "The transcript of the meeting is split into {{chunkCount}} chunks. This is the chunk number {{chunkIndex}} of {{chunkCount}}.",
       },
       {
         role: "assistant",
@@ -85,14 +85,14 @@ module SummarizeMeeting
       consolidated_template = CONSOLIDATED_SUMMARY_PROMPT_TEMPLATE
       prompt = Mustache.render(consolidated_template.to_json, { notes: previous_chunks_summary.to_json })
       messages = JSON.parse(prompt)
-      SummarizeMeeting::Ai.chat(messages: messages)
+      SummarizeMeeting::Ai.chat(messages)
     end
 
     def summarize_chunk(chunk, chunk_index, chunk_count, previous_chunks_summary)
       template = LINE_SUMMARY_PROMPT_TEMPLATE
       prompt = Mustache.render(template.to_json, { chunkCount: chunk_count, chunkIndex: chunk_index + 1, chunk: chunk.join("\n").to_json })
       messages = JSON.parse(prompt)
-      SummarizeMeeting::Ai.chat(messages: messages)
+      SummarizeMeeting::Ai.chat(messages)
     end
 
     def split_lines_into_equal_size_chunks(lines, max_chunk_word_count)
