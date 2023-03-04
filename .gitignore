@@ -1,3 +1,4 @@
 transcript.txt
 .env
-/pkg
+pkg/
+spec/examples.txt
