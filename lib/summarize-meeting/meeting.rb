@@ -43,6 +43,7 @@ module SummarizeMeeting
           The summary should be organized into sections with headings and bullet points.
           The summary should include a list of attendees.
           The order of the sections should be overview, attendees, action items, and detailed notes by topic.
+          Write the summary in markdown format.
         CONTENT
       },
       {

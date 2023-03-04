@@ -231,11 +231,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 05:02:38 GMT
+      - Sat, 04 Mar 2023 16:25:09 GMT
       Content-Type:
       - application/json
-      Content-Length:
-      - '865'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -247,27 +247,18 @@ http_interactions:
       Openai-Organization:
       - xbe
       Openai-Processing-Ms:
-      - '2764'
+      - '3886'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Request-Id:
-      - 52ee7771a7c0c3e235ae33c11a4ee044
+      - ebeb0d869a24be723b44704aabdb5a8f
     body:
-      encoding: UTF-8
-      string: '{"id":"chatcmpl-6qEKSPSkbTiwaIRaGnREO4MXIVIUf","object":"chat.completion","created":1677906156,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":3970,"completion_tokens":111,"total_tokens":4081},"choices":[{"message":{"role":"assistant","content":"During
-        the meeting, Sean Devine reported on his progress with profit-related work
-        and updating the check EBT API. Benjamin Fleischer discussed issues with Heroku,
-        the cash store, and backfills for shift percent tracking. Colenso Castellino
-        mentioned working on push notifications and fixing script errors related to
-        Google Maps API. Pankaj Kataria reported on his progress with bulk assign
-        form handling and adding a feature for retaining time zone when assigning
-        resources. Finally, there was discussion about integrating with Palmer Peckham
-        and other various integrations."},"finish_reason":"stop","index":0}]}
-
-'
-  recorded_at: Sat, 04 Mar 2023 05:02:38 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTZxT3l2em5hQWtmdDE2bU90czBJOHh1czVMU1lyIiwib2JqZWN0IjoiY2hhdC5jb21wbGV0aW9uIiwiY3JlYXRlZCI6MTY3Nzk0NzEwNSwibW9kZWwiOiJncHQtMy41LXR1cmJvLTAzMDEiLCJ1c2FnZSI6eyJwcm9tcHRfdG9rZW5zIjozOTcwLCJjb21wbGV0aW9uX3Rva2VucyI6MTI2LCJ0b3RhbF90b2tlbnMiOjQwOTZ9LCJjaG9pY2VzIjpbeyJtZXNzYWdlIjp7InJvbGUiOiJhc3Npc3RhbnQiLCJjb250ZW50IjoiVGhlIG1lZXRpbmcgYXR0ZW5kZWVzIHdlcmUgQW5pc2ggR2FkZWthciwgQmVuamFtaW4gRmxlaXNjaGVyLCBDb2xlbnNvIENhc3RlbGxpbm8sIE5haXlhIFNoYWgsIFBhbmthaiBLYXRhcmlhLCBTZWFuIERldmluZSwgYW5kIFNoaXJpc2ggUGFyc2VrYXIuIFNlYW4gRGV2aW5lIGRpc2N1c3NlZCBoaXMgcHJvZ3Jlc3Mgb24gcHJvZml0LXJlbGF0ZWQgbWF0dGVycyBhbmQgbm90ZWQgYSBzdHJ1Y3R1cmUgY29uc29saWRhdGlvbiBhdCB0aGUgcHJvamVjdCBlc3RpbWF0ZSBzZXQgbGV2ZWwuIEhlIGFsc28gd29ya2VkIHdpdGggTWlsYW4gb24gdGhlIGZ1bmN0aW9uYWxpdHksIGFuZCB0aGUgdGVhbSBoYWQgYSBkZW1vIHdpdGggR2FsbGFnaGVyIG9uIE1vbmRheS4gQmVuamFtaW4gRmxlaXNjaGVyIHRlc3RlZCB0aGUgbmV3IGNoZWNrIEVCVCBBUEkgYW5kIG1hZGUgaXQgc28gdGhhdCBpZiB0aGUgcHJvbXB0ZXLigJlzIHByb21wdCBjb250ZW50IGluIGEgSlNPTiBmaWxlIGZvcm1hdCBpcyBlZGl0ZWQsIGl0IHdvdWxkIHdvcmsgYXMgZXhwZWN0ZWQuIENvbGVuc28gQ2FzdGVsbGlubyJ9LCJmaW5pc2hfcmVhc29uIjoibGVuZ3RoIiwiaW5kZXgiOjB9XX0K
+  recorded_at: Sat, 04 Mar 2023 16:25:09 GMT
 - request:
     method: post
     uri: https://api.openai.com/v1/chat/completions
@@ -382,11 +373,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 05:02:43 GMT
+      - Sat, 04 Mar 2023 16:25:13 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1207'
+      - '1066'
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -398,31 +389,30 @@ http_interactions:
       Openai-Organization:
       - xbe
       Openai-Processing-Ms:
-      - '4776'
+      - '3932'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Request-Id:
-      - aecda30cfedb8afeba3b3810ed7c1786
+      - 2f3e1b2a5753082270c5fe2aab170f11
     body:
       encoding: UTF-8
-      string: '{"id":"chatcmpl-6qEKVtXFSpUMDPUq27JBceIsbsyRF","object":"chat.completion","created":1677906159,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":1751,"completion_tokens":185,"total_tokens":1936},"choices":[{"message":{"role":"assistant","content":"During
-        the second part of the meeting, Benjamin Fleischer asked for help with his
-        release notes and talked about some upcoming features he was planning to work
-        on. Shirish Parsekar gave an update on the bugs he had worked on and his plan
-        to start working on the vision importer for treatment location events. Naiya
-        Shah gave an update on her progress with the time card approval notification
-        and discussed her work on the settings to opt-out of the time card pool notification.
-        Sean Devine mentioned the caching query related to the Lane summary and suggested
-        speeding it up. Shirish Parsekar stated that he had made some adjustments
-        to the query and the performance has now improved. Anish Gadekar added a business
-        unit filter on the time card and planned to work on the page titles. At the
-        end of the meeting, Sean Devine hoped for success with the upcoming profit
-        project and expected to demo it on Monday''s call."},"finish_reason":"stop","index":0}]}
+      string: '{"id":"chatcmpl-6qOyzSkqNIA10poEOgOgQLLKekN0r","object":"chat.completion","created":1677947109,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":1751,"completion_tokens":144,"total_tokens":1895},"choices":[{"message":{"role":"assistant","content":"The
+        meeting included updates from various members. Benjamin Fleischer asked for
+        help with the release notes and mentioned some upcoming releases. Shirish
+        Parsekar worked on bug fixes and small improvements but hasn''t started work
+        on vision importer for treatment location events. Naiya Shah completed time
+        card approval notification and is working on settings to opt-out of the time
+        card of pool notification. Sean Devine mentioned the caching query related
+        to the lane summary and discussed the improvement in performance after Shirish
+        Parsekar made adjustments to the query. Anish Gadekar added a business unit
+        filter on the time card and will continue working on page titles. The meeting
+        ended with Sean Devine hopeful about success on the profit stuff coming into
+        Monday."},"finish_reason":"stop","index":0}]}
 
 '
-  recorded_at: Sat, 04 Mar 2023 05:02:43 GMT
+  recorded_at: Sat, 04 Mar 2023 16:25:13 GMT
 - request:
     method: post
     uri: https://api.openai.com/v1/chat/completions
@@ -436,28 +426,26 @@ http_interactions:
         extract any action items that were discussed.\nThe summary should be organized
         into sections with headings and bullet points.\nThe summary should include
         a list of attendees.\nThe order of the sections should be overview, attendees,
-        action items, and detailed notes by topic.\n"},{"role":"assistant","content":"Please
-        provide me with notes from the meeting."},{"role":"user","content":"&quot;During
-        the meeting, Sean Devine reported on his progress with profit-related work
-        and updating the check EBT API. Benjamin Fleischer discussed issues with Heroku,
-        the cash store, and backfills for shift percent tracking. Colenso Castellino
-        mentioned working on push notifications and fixing script errors related to
-        Google Maps API. Pankaj Kataria reported on his progress with bulk assign
-        form handling and adding a feature for retaining time zone when assigning
-        resources. Finally, there was discussion about integrating with Palmer Peckham
-        and other various integrations.During the second part of the meeting, Benjamin
-        Fleischer asked for help with his release notes and talked about some upcoming
-        features he was planning to work on. Shirish Parsekar gave an update on the
-        bugs he had worked on and his plan to start working on the vision importer
-        for treatment location events. Naiya Shah gave an update on her progress with
-        the time card approval notification and discussed her work on the settings
-        to opt-out of the time card pool notification. Sean Devine mentioned the caching
-        query related to the Lane summary and suggested speeding it up. Shirish Parsekar
-        stated that he had made some adjustments to the query and the performance
-        has now improved. Anish Gadekar added a business unit filter on the time card
-        and planned to work on the page titles. At the end of the meeting, Sean Devine
-        hoped for success with the upcoming profit project and expected to demo it
-        on Monday&#39;s call.&quot;"}]}'
+        action items, and detailed notes by topic.\nWrite the summary in markdown
+        format.\n"},{"role":"assistant","content":"Please provide me with notes from
+        the meeting."},{"role":"user","content":"&quot;The meeting attendees were
+        Anish Gadekar, Benjamin Fleischer, Colenso Castellino, Naiya Shah, Pankaj
+        Kataria, Sean Devine, and Shirish Parsekar. Sean Devine discussed his progress
+        on profit-related matters and noted a structure consolidation at the project
+        estimate set level. He also worked with Milan on the functionality, and the
+        team had a demo with Gallagher on Monday. Benjamin Fleischer tested the new
+        check EBT API and made it so that if the prompter’s prompt content in a JSON
+        file format is edited, it would work as expected. Colenso CastellinoThe meeting
+        included updates from various members. Benjamin Fleischer asked for help with
+        the release notes and mentioned some upcoming releases. Shirish Parsekar worked
+        on bug fixes and small improvements but hasn&#39;t started work on vision
+        importer for treatment location events. Naiya Shah completed time card approval
+        notification and is working on settings to opt-out of the time card of pool
+        notification. Sean Devine mentioned the caching query related to the lane
+        summary and discussed the improvement in performance after Shirish Parsekar
+        made adjustments to the query. Anish Gadekar added a business unit filter
+        on the time card and will continue working on page titles. The meeting ended
+        with Sean Devine hopeful about success on the profit stuff coming into Monday.&quot;"}]}'
     headers:
       Content-Type:
       - application/json
@@ -477,11 +465,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 05:03:00 GMT
+      - Sat, 04 Mar 2023 16:25:25 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '3655'
+      - '2327'
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -493,61 +481,44 @@ http_interactions:
       Openai-Organization:
       - xbe
       Openai-Processing-Ms:
-      - '16638'
+      - '12632'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Request-Id:
-      - 7a4dc15cc355da6b4b48874504fbb7e5
+      - f7ab07c58c35c9a675867a1da7811e2e
     body:
       encoding: UTF-8
-      string: '{"id":"chatcmpl-6qEKacpCF7X1m29P8WSqDVZFqz1BD","object":"chat.completion","created":1677906164,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":432,"completion_tokens":686,"total_tokens":1118},"choices":[{"message":{"role":"assistant","content":"Summary:\n\nThe
-        meeting began with updates from different members of the team. Sean Devine
-        reported on his progress with profit-related work and updating the check EBT
-        API. Benjamin Fleischer discussed issues with Heroku, the cash store, and
-        backfills for shift percent tracking. Colenso Castellino mentioned working
-        on push notifications and fixing script errors related to Google Maps API.
-        Pankaj Kataria reported on his progress with bulk assign form handling and
-        adding a feature for retaining time zone when assigning resources. Finally,
-        there was discussion about integrating with Palmer Peckham and other various
-        integrations.\n\nDuring the second part of the meeting, Benjamin Fleischer
-        asked for help with his release notes and outlined some upcoming features
-        he was planning to work on. Shirish Parsekar gave an update on the bugs he
-        had worked on and his plan to start working on the vision importer for treatment
-        location events. Naiya Shah gave an update on her progress with the time card
-        approval notification and discussed her work on the settings to opt-out of
-        the time card pool notification. Sean Devine mentioned the caching query related
-        to the Lane summary and suggested speeding it up. Shirish Parsekar stated
-        that he had made some adjustments to the query and the performance has now
-        improved. Anish Gadekar added a business unit filter on the time card and
-        planned to work on the page titles. \n\nAttendees:\n\n- Sean Devine\n- Benjamin
-        Fleischer\n- Colenso Castellino\n- Pankaj Kataria\n- Shirish Parsekar\n- Naiya
-        Shah\n- Anish Gadekar\n\nAction Items:\n\n- Benjamin Fleischer: requested
-        help with his release notes\n- Shirish Parsekar: planned to work on the vision
-        importer for treatment location events\n- Naiya Shah: work on the settings
-        to opt-out of the time card pool notification\n- Anish Gadekar: planned to
-        work on the page titles\n\nDetailed Notes by Topic:\n\nUpdates:\n- Sean Devine
-        reported on his progress with profit-related work and updating the check EBT
-        API\n- Benjamin Fleischer discussed issues with Heroku, the cash store, and
-        backfills for shift percent tracking\n- Colenso Castellino mentioned working
-        on push notifications and fixing script errors related to Google Maps API\n-
-        Pankaj Kataria reported on his progress with bulk assign form handling and
-        adding a feature for retaining time zone when assigning resources\n- Discussion
-        about integrating with Palmer Peckham and other various integrations.\n\nSecond
-        Part of the Meeting:\n- Benjamin Fleischer asked for help with his release
-        notes and outlined some upcoming features he was planning to work on.\n- Shirish
-        Parsekar gave an update on the bugs he had worked on and his plan to start
-        working on the vision importer for treatment location events.\n- Naiya Shah
-        gave an update on her progress with the time card approval notification and
-        discussed her work on the settings to opt-out of the time card pool notification.\n-
-        Sean Devine mentioned the caching query related to the Lane summary and suggested
-        speeding it up.\n- Shirish Parsekar stated that he had made some adjustments
-        to the query and the performance has now improved.\n- Anish Gadekar added
-        a business unit filter on the time card and planned to work on the page titles.\n\nClosing:\n-
-        Sean Devine hoped for success with the upcoming profit project and expected
-        to demo it on Monday''s call."},"finish_reason":"stop","index":0}]}
+      string: '{"id":"chatcmpl-6qOz3qpmzoCmlBv7JaZOzIR2BoL2G","object":"chat.completion","created":1677947113,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":414,"completion_tokens":423,"total_tokens":837},"choices":[{"message":{"role":"assistant","content":"#
+        Meeting Summary\nThe meeting held included updates by various members. Sean
+        discussed his progress on profit-related matters, the consolidation of structures,
+        and the demo with Gallagher on Monday. Benjamin worked on testing the new
+        check EBT API, and Colenso mentioned upcoming releases. Shirish worked on
+        bug fixes and small improvements but hasn''t started work on vision importer
+        for treatment location events. Naiya completed time card approval notification
+        and is working on settings to opt-out of the time card of pool notification.
+        Anish added a business unit filter on the time card and will continue working
+        on page titles. The meeting ended with Sean Devine feeling hopeful about success
+        on the profit stuff coming into Monday.\n\n## Attendees\n* Anish Gadekar\n*
+        Benjamin Fleischer\n* Colenso Castellino\n* Naiya Shah\n* Pankaj Kataria\n*
+        Sean Devine\n* Shirish Parsekar\n\n## Action Items\n* Benjamin requires help
+        with release notes.\n* Shirish Parsekar must work on vision importer for treatment
+        location events.\n\n## Detailed Notes\n### Sean Devine\n* Discussed progress
+        on profit-related matters.\n* Noted structure consolidation at the project
+        estimate set level.\n* Worked with Milan on the functionality.\n* Team had
+        a demo with Gallagher on Monday.\n* Mentioned caching query related to the
+        lane summary.\n* Discussed improvement in performance after Shirish Parsekar
+        made adjustments to the query.\n\n### Benjamin Fleischer\n* Tested the new
+        check EBT API.\n* Made prompter''s prompt content work as expected in a JSON
+        file format.\n* Requires help with release notes.\n\n### Colenso Castellino\n*
+        Mentioned upcoming releases.\n\n### Shirish Parsekar\n* Worked on bug fixes
+        and small improvements.\n* Need to start work on vision importer for treatment
+        location events.\n\n### Naiya Shah\n* Completed time card approval notification.\n*
+        Working on settings to opt-out of the time card pool notification.\n\n###
+        Anish Gadekar\n* Added a business unit filter on the time card.\n* Will continue
+        working on page titles."},"finish_reason":"stop","index":0}]}
 
 '
-  recorded_at: Sat, 04 Mar 2023 05:03:00 GMT
+  recorded_at: Sat, 04 Mar 2023 16:25:25 GMT
 recorded_with: VCR 6.1.0
