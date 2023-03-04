@@ -4,6 +4,8 @@ require "openai"
 
 module SummarizeMeeting
   class Meeting
+    RESPONSE_RESERVE_TOKENS = 500
+
     LINE_SUMMARY_PROMPT_TEMPLATE = [
       {
         role: "system",
@@ -60,17 +62,14 @@ module SummarizeMeeting
     attr_reader :transcript
 
     def summarize
-
       # Step 1. Split the transcript into lines.
       lines = transcript.lines
 
       # Step 2. Calculate the maximum chunk size in words.
-      max_total_tokens = 4000
-      response_token_reserve = 500
-      template_tokens = LINE_SUMMARY_PROMPT_TEMPLATE.map { |line| line[:content].split.size }.sum
-      max_chunk_tokens = max_total_tokens - response_token_reserve - template_tokens
-      words_per_token = 0.7
-      max_chunk_word_count = max_chunk_tokens * words_per_token
+      template_word_count = LINE_SUMMARY_PROMPT_TEMPLATE.map { |line| line[:content].split.size }.sum
+      template_token_count = SummarizeMeeting::Ai.calculate_word_token_count(template_word_count)
+      max_chunk_token_count = SummarizeMeeting::Ai::MAX_TOTAL_TOKENS - RESPONSE_RESERVE_TOKENS - template_token_count
+      max_chunk_word_count = SummarizeMeeting::Ai.calculate_token_word_count(max_chunk_token_count)
 
       # Step 3. Split the transcript into equally sized chunks.
       chunks = split_lines_into_equal_size_chunks(lines, max_chunk_word_count)
@@ -86,27 +85,14 @@ module SummarizeMeeting
       consolidated_template = CONSOLIDATED_SUMMARY_PROMPT_TEMPLATE
       prompt = Mustache.render(consolidated_template.to_json, { notes: previous_chunks_summary.to_json })
       messages = JSON.parse(prompt)
-      response = SummarizeMeeting::Ai.client.chat(
-        parameters: {
-          model: "gpt-3.5-turbo",
-          messages: messages,
-        }
-      )
-      response.dig("choices", 0, "message", "content")
+      SummarizeMeeting::Ai.chat(messages: messages)
     end
 
     def summarize_chunk(chunk, chunk_index, chunk_count, previous_chunks_summary)
       template = LINE_SUMMARY_PROMPT_TEMPLATE
       prompt = Mustache.render(template.to_json, { chunkCount: chunk_count, chunkIndex: chunk_index + 1, chunk: chunk.join("\n").to_json })
       messages = JSON.parse(prompt)
-
-      response = SummarizeMeeting::Ai.client.chat(
-        parameters: {
-          model: "gpt-3.5-turbo",
-          messages: messages,
-        }
-      )
-      response.dig("choices", 0, "message", "content")
+      SummarizeMeeting::Ai.chat(messages: messages)
     end
 
     def split_lines_into_equal_size_chunks(lines, max_chunk_word_count)
