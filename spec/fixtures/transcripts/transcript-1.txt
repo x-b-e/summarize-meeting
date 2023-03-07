@@ -1,0 +1,140 @@
+﻿eqa-yuxa-cmr (2023-03-02 22:03 GMT-6) - Transcript
+Attendees
+Anish Gadekar, Benjamin Fleischer, Colenso Castellino, Naiya Shah, Pankaj Kataria, Pankaj Kataria's Presentation, Sean Devine, Shirish Parsekar
+Transcript
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+Sean Devine: In my side, mostly worked on profit related things made pretty good progress in a couple of key areas. main thing I worked on today related to that was
+Sean Devine:  Sort of building a structure at the Project estimate, set level that consolidated all of the effective estimate. amounts, which I didn't really think through before today and took a little bit of time, but I think that the shape of it's about, right, reviewed with Milan, his progress on The, the functionality and that seems to be going pretty well. We've got a demo with Gallagher on our current progress on Monday, and we're focused on making sure that we do a pretty good job for that. I still think we're about a few weeks behind, but
+Sean Devine:  chugging along. So that's that. I think you may have seen the last night. I took the new check EBT API that they released and swapped it out for the Hey Kayla answer API.
+Sean Devine: The answers are remarkably good now. I mean. They're almost all eights or above, I'd say. And the only time really it misses is if there's just a total lack of content or if the question is going to say way too broad. But For the most part it it writes answers as well as a person would do if they had a bunch of time.
+Sean Devine:  Benjamin. You looked at some of them today. Did you find the same?
+Benjamin Fleischer: And they seem much more chatty. And personal. And in a few cases,…
+Sean Devine:  Yeah.
+Benjamin Fleischer: I thought they gave better. Not answers.
+Sean Devine:  Yeah, I agree with that too. yeah, the nice thing is, I mean, before we had this tension where if we, like let out the slack more and allowed it to talk, it would give like Nice sounding answers but they'd be wrong too. Often And then we tightened it up and the answers were shorter. Which meant that they were, they were not all that wrong. And usually, they were right. But they didn't say as much as ideally they would say now. It seems to get that, right? It says more. If there's more to say it says less, if there's less to say it handles situations where it doesn't. Want to answer pretty well. So all together, really pretty great really, really pleased with it.
+Sean Devine:  I'll pour it over the others. I don't know if anyone saw what I did, and I didn't document it on the client, but basically I made it so that if in a prompter, you edit, the prompt content to be the, the new JSON structure that the Chat GPT messages API expects, It'll just work. So you can do it like the old way, where you just have a plain text prompt or you can write it as a JSON file and in the format that's expected. Basically, it tries to parse the the prompter, into JSON, if it fails it just passes through the text as it's and that seems pretty fine. So anyways, I did that last night. I've got, I've got to do the rest of the prompts and fidget it with it, but I mean, for the most part I think it's in great shape.
+Sean Devine: I think that's about it. Those are my two focus areas are really. My one main one with profit with just a little diversion last night.
+Sean Devine:  Yeah, Cleanser you want to go?
+Colenso Castellino: Okay. And not much to talk about. I haven't made any progress on push notifications yet. Hoping to make it today, and Coming Monday.
+Colenso Castellino:  So there was this bug that Was throwing a script arrow and roll bar. It was very annoying. I thought I got all of it on yesterday. By adding a card. So the error is being thrown by the JavaScript Google Maps API. And it throws when it throws that arrow. If we have Open Info window, it's called. It's like when you click on a map marker and it shows the and it shows the notification of the, if you, if that notification is open, and if you change between routes, Then it throws that error. It's something you do with destroying of the view and removing of the listeners at the same time, some kind of a race condition. The
+00:05:00
+Colenso Castellino:  So I try to handle that by using Good Old is Route. Active Flag seem to work in the first case that we had caught. But on the plan page, if you go if you open up the plan page right now and if you go back to the lens list page, Then it still shows that error. I mean it is not exactly a big issue but it's annoying. It's crowding up role at the moment it Just annoying and it has happened recently, I not sure. Exactly. What is throwing it. I don't even think that it's anything. I said that. That was changed. I think it's probably some Google API or something changed from it externally and it's running error. I'll see what the problem is today. And
+Colenso Castellino:  See if there's some other way to fix it. That was one thing you see.
+Benjamin Fleischer: My plus one there is that I'm a big fan of making alerts worth looking at.
+Sean Devine: I…
+Colenso Castellino:  Yes.
+Sean Devine: like, there were some reports from listener or listeners from users that This is causing trouble at least on that time card screen, right?
+Colenso Castellino: It was causing actual trouble. When?
+Sean Devine: But I mean, maybe it was coincidental but It seems like error. It seemed like, I don't know, three days ago. There were reports that trouble on a time card screen also was the screen.
+Colenso Castellino: Yes. So at least on a time card screen,…
+Sean Devine: This was coming from Or one of.
+Colenso Castellino: this error has been fixed by my patch. That. Okay. What is on the Landscene is still happening? So, And look at that today.
+Sean Devine: But ideally we'd have a bit more of a sort of bulletproof. Way to wrap it that no matter what's fine. So I mean We don't spend more time in it,…
+Colenso Castellino: Yeah.
+Sean Devine: but if you could find that, that'd be good.
+Colenso Castellino:  Yes, I know that today. so, I also Worked on the page title Lender. With Amber Template. I completed it. Then we found. So initial, I understand to check the results of the
+Colenso Castellino:  Of the Linter and it, there were some false positives, wherein the page title was present on the parent. There was not present on a child, something like that of, that sort. Then I have to tweak the paste, title intern a little bit, did that? Now, it's funny. She's Call. But there are considerable number of pages where. Okay, so how many, how many pages do we need to fix a base title for they remember?
+Sean Devine: Okay.
+Anish Gadekar: Damn you. Not exactly, sure. Like it.
+Colenso Castellino:  Okay, definitely I think more than 100, at least.
+Anish Gadekar:  Yeah, it was around 200 something 214 or 84 million.
+Colenso Castellino: Okay. So at least the routes. I mean around slash templates are highlighted. By the lender. So that seems to be working, okay? Anish will finish that work up by. Adding the paste titles in the places that I highlighted. For now I'm just made it to spit up a warning instead of an error. And after Anish finishes his book, once we have page titles and all of these, I let it pages, then I'll change it to an error. So next time whoever, it's a new route, make sure that you had a page title for it.
+Pankaj Kataria: And justice addition. Should we try to handle the pace title via application? HbS or like, The most parent route authenticated address, maybe.
+Colenso Castellino: Handle in the sense validate him in with this present, or this add some thing.
+Pankaj Kataria:  I mean. um, this should all be happening at one place instead of different templates.
+Colenso Castellino: You. Each page has its own title.
+Sean Devine: Well, I don't know. I mean kind of
+Sean Devine:  because it will, then it doesn't have the data until it's down there, you don't, I mean,
+Colenso Castellino: Like, for example, meeting id. So and so plan ID,…
+Sean Devine: yeah, name of the plan idea or…
+Colenso Castellino: so and so
+Sean Devine: the plan ID, So we don't, we don't know, until the ultimate childhood is rendered.
+00:10:00
+Colenso Castellino:  route.
+Sean Devine: What the context is,
+Pankaj Kataria: If?
+Colenso Castellino:  I mean, there is a page title service that we could use but like Sean said and unless we have the data, we don't always have the right page start to
+Pankaj Kataria: Okay.
+Colenso Castellino:  Yeah, that's it. From my side.
+Colenso Castellino: Pankaj, was next.
+Sean Devine: Here.
+Colenso Castellino:  Now, I was thinking of making Pankaj the captains. He was the first one called today.
+Pankaj Kataria: So, I'm continuing on the
+Pankaj Kataria:  Board bulk assign form handling more. And real world scenarios over here. One of them was Like, and Allowing the option to, you know, retain.
+Sean Devine: You.
+Pankaj Kataria:  Time zone, existing requirements. When there is similar, resource assigned or similar resource classification, assign So I read this setting to the form. On.
+Pankaj Kataria:  and, This isn't shipped yet. I need some
+Pankaj Kataria: Style corrections on this soil. Ship it today.
+Sean Devine: Here. That's a good feature.
+Pankaj Kataria: I'm working to.
+Pankaj Kataria:  Assign bulk. I mean, crew templates. Where this form? So that will come next.
+Sean Devine: Yes.
+Pankaj Kataria:  and that from,
+Sean Devine:  oh, Benjamin.
+Benjamin Fleischer: Hello, okay. so database connection issue in terms of it, I Haven't having a really hard time with Heroku. Getting good support on this. Current state is everything that they have documented or done is a mess. And I have no plans on making any more work in this area until I get better support for them, right? Just probably Being very pushy is my goal right now. I just don't understand. Um, In terms of the casting issues, we've had, they seem to be resolved by switching the cash store that we use.
+Benjamin Fleischer:  We have some backfills to do with regards to shift percent tracking. I broke a scope in a refactor and accident. Where it was, you're able to get the driver movement, but it wouldn't update it in certain cases, and I made it never updated. I've added a regression test for that. I have not looked into what the work is needed to backfill it. I don't know.
+Benjamin Fleischer:  And it should be difficult.
+Benjamin Fleischer:  I, i don't, I had a question for Colenso about, Plans and getting the FCM push token work into production and on the native apps. If that is, Something that I should keep on my mind to. I don't the other one is about There's an issue of scientific answer right now that I put in the meeting chat, I'm in different to who it actually is works on it. But OMG would like to start using the feature that I worked on to have a default customer in agreement. Um, being copied, when new customers are create. when you customers are created, having the rate of grant be copied, From the, from the specified one. I don't know. It probably requires a little bit of UI consideration, but actually interface. I don't think it's too complicated.
+Benjamin Fleischer:  And it's too much for me at least. So I don't know who's responsible for it.
+00:15:00
+Colenso Castellino: I'll look at it. I need help us all else.
+Benjamin Fleischer: Okay. Yeah, I just if you can just even triage and delegate and…
+Colenso Castellino:  Yeah.
+Benjamin Fleischer: as long as someone has a hedgehog, I just want to make sure that it's not lost. There's an interesting issue that's come up with those zynga with regard to split loads when a material when there's more on material transaction on the same trip. That, although we handle the financials correctly on the time card level because material transaction exports in the invoice, exports is to some extent to hack. I was incorrectly specifying the load that the quantity for every material transaction by load is one. and I added some logic today to handle that that if there's the quantity per load, is one divided by the number of loads on the trip. So there's now a Attribute on the material transaction in on the server and and the invoice data. Which is a trip load count. Essentially.
+Benjamin Fleischer:  Um, there's an open integration issue right now, with Palmer Peckham. Which I think would be have good to have some discussion. Doesn't, I don't, I know time is precious on this call, so, I'll just mention that the complicated issues that because Pac-Man and Palmer are the same customer with the same tech team with two branches. Um, they've done the worker planning on doing the work to have the one integration endpoint. Return data for both branches. And I'm of two minds about that because it makes it simple. On the one hand to have one importer that Talks to two branches and maybe that's a behavior tractor. But on the other hand, it's like totally different for everything else and I think it could cause other trouble. And just the sort of the confusion about which branch it is. I don't.
+Sean Devine: Hmm, where do you link them? Do you lean towards just having Identical separate ones, then.
+Benjamin Fleischer: Yes. I mean, it's Having. Yeah, that that's certainly the the way things normally work, but I don't know if that's confusing to them. Like I don't I don't just because it's confusing to me, doesn't mean it's confusing to them like
+Sean Devine: I think I'd leaned that way.
+Benjamin Fleischer:  I mean because like Kayla or Jim asked Kayla, I do you plan on using the same parameters. For this, we'll just add the sites like I so I don't know. So I don't, I don't know. Who is the domain expert on the like, are they, are they so similar that we that it's in our interest to like, we'll be fighting the fighting the stream to treat them as
+Benjamin Fleischer:  Different in this place.
+Sean Devine: I mean. I don't know. It seems like
+Sean Devine:  It's it seems like I'd go with, I mean, if we always if we never have the same importer work across branches, that I don't know that I'd start now.
+Benjamin Fleischer: Okay good. Other open issue. Is there's an open discussion right now at the Palmer. Export that Kalan air working on. That's I think I've taken a while to respond to that but I think otherwise it's going well. Same with other various integrations, too many dimension. I have one release note pending right now.
+Sean Devine: You are.
+Benjamin Fleischer: I put in the release notes channel because they need some help words within it. I think I wrote a terrible release note. I think honestly like, I think I covered what I wanted to cover, and I, I just If any of you feel like, You want to give it a second look? It's around a feature that I shipped today. That was they come up a few times as feature bug, fix, whatever is that I shipped the idea of a job production plan. Is flexible and not complete. I would disallow post invoicing changes for a number of things. And that has caused trouble for job production plans that are still running because they're they have flexible shifts on them. And I wanted to use that as opportunity to also talk about.
+Benjamin Fleischer:  Why we have these validations and I'm pretty sure I didn't order things, right, or structure, right?
+Benjamin Fleischer: So, anyone looks at them,…
+Sean Devine: Here. Okay,…
+Benjamin Fleischer: tells me how they use Chat Gpd to fix it up and be happy to.
+00:20:00
+Sean Devine: exactly. In doing so now,
+Benjamin Fleischer:  Yeah, I have another release date. I'm going to write after that. One about adding Support for accounting for materials, like vendor IDs. And I'm, which is also, I think gonna be the same kind of release network. It's A, If you are interested at here's a thing.
+Sean Devine: Here.
+Benjamin Fleischer:  And I guess I should probably also write one about split loads.
+Benjamin Fleischer:  Because that's also something that often we talked about much but it's very interesting.
+Benjamin Fleischer:  That's yeah, I know I just talked for a while and I'm done. It's hard to believe.
+Benjamin Fleischer:  My gosh.
+Shirish Parsekar: I'll give my update. Of. So, last two days, I've mostly been working on some bugs and quickies and small improvements and stuff. I was supposed to start work on vision importer for treatment location events, but I haven't started with that. Also, I was supposed to find a good vector database hosted one, but
+Shirish Parsekar:  As I said, I didn't do anything on that last two days. So I'll continue work on that today.
+Shirish Parsekar:  That's it. That's all I have.
+Sean Devine:  Naiya.
+Naiya Shah: Yes, my update. I'm able to complete the time card approval notification thing, but now I'm working on the settings to opt out of the time card of pool notification. So for that user label and organization settings are done, I'll currently I'm working on the job presentation, plan related settings on it. Um, yes. And then after I will look into the My ongoing PR for segment description filter in which I have to apply the fuzzy scope. Instagram, the current whatever. Yes. That's it.
+Sean Devine: Okay, great. Hey Shirish. Hey Shirish. And and this may apply to Naiya too, I don't know if you've taken a look into that and benjaminson with you.
+Sean Devine:  The caching, the query related to the Lane summary. I think it's called the cycle time summary. Resource. I don't remember exactly. I even looked at it since I spiked it back when and it'd be really great if we could speed that up, I'm not sure. I haven't really assessed how much work it being
+Shirish Parsekar: Yes, I made some adjustment to the query. I used the material transaction, turn it somewhere was possible, and the performance is good. Now. so,…
+Sean Devine:  oh,
+Shirish Parsekar: I don't think it's, I mean, I don't think we need to cash it urgently for now.
+Sean Devine:  oh, that's good news. I didn't realize.
+Shirish Parsekar:  Yes, well previously it was taking like six to seven seconds. Around like this time of the day, but that has come down to less than one second.
+Shirish Parsekar:  That's a good improvement, I think.
+Sean Devine:  Oh yeah. Yeah, I'm I mean I know that they were like year-to-date. It was timing out the other day.
+Shirish Parsekar:  Okay.
+Sean Devine:  Yeah. Well, but I mean maybe that's maybe that's fixed. Now I'm just running it right now.
+Shirish Parsekar: Yeah, I haven't tried out. Inside right out yesterday.
+Sean Devine:  yeah yeah I just ran the year today on Geiger the first time it seems like maybe there's like a like a database cash warming kind of thing that first time I ran it was a little slow and then started to go Quick after that and click about a minute and or a second and a half for year to date. That's great there. If you don't mind post back to the that thread. So that because Matt's been bugging about that forever. Need to appreciate that.
+Shirish Parsekar: Yeah, I think I did reply to that.
+Sean Devine: Just meet.
+Benjamin Fleischer: I thought he did too, but it might have been like one of those dual threads thing where, like, Dev was crossing from somewhere else and sometimes happens.
+Sean Devine:  Yeah, maybe I just wasn't paying attention.
+Sean Devine:  All right. Well, thanks for
+00:25:00
+Benjamin Fleischer: Yes, Siris found that like he looked, he picked it up, he looked at it, he had an idea and I think I'm gonna say was maybe an hour of work with a They looked at that was pretty good attention to turn around.
+Sean Devine:  yeah, that's super
+Benjamin Fleischer:  and also on the jump job director playing driver movement, one although I ended up Finishing the PR. He started. He found actual problem. So also, like lots of credit to shirishan.
+Benjamin Fleischer: An eye on, like customer facing issues. And Getting to their cause.
+Sean Devine: Here. Yeah, great. Great job. Yeah, sure. Nice. I see that you posted in use your voice and that I just didn't notice. So thank you. All right, Anish.
+Shirish Parsekar: No insurance.
+Anish Gadekar: So, I added a business unit filter on the time card. And now I'll continue working on the page titles. After that, I'll see if you assign it.
+Sean Devine:  All right. Well. I think that's it for today hopefully over the next three days Mill and I will have some pretty good success on the profit stuff coming into Monday. And I think we'll be in a place to demo it all for all the initial parts. On Monday's call. So Anyway. Talk to everyone soon.
+Naiya Shah: Bye-bye.
+Meeting ended after 00:27:51 👋

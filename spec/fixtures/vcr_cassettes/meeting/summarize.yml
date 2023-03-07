@@ -180,38 +180,7 @@ http_interactions:
         I added some logic today to handle that that if there&#39;s the quantity per
         load, is one divided by the number of loads on the trip. So there&#39;s now
         a Attribute on the material transaction in on the server and and the invoice
-        data. Which is a trip load count. Essentially.\\r\\n\\nBenjamin Fleischer:
-        \ Um, there&#39;s an open integration issue right now, with Palmer Peckham.
-        Which I think would be have good to have some discussion. Doesn&#39;t, I don&#39;t,
-        I know time is precious on this call, so, I&#39;ll just mention that the complicated
-        issues that because Pac-Man and Palmer are the same customer with the same
-        tech team with two branches. Um, they&#39;ve done the worker planning on doing
-        the work to have the one integration endpoint. Return data for both branches.
-        And I&#39;m of two minds about that because it makes it simple. On the one
-        hand to have one importer that Talks to two branches and maybe that&#39;s
-        a behavior tractor. But on the other hand, it&#39;s like totally different
-        for everything else and I think it could cause other trouble. And just the
-        sort of the confusion about which branch it is. I don&#39;t.\\r\\n\\nSean
-        Devine: Hmm, where do you link them? Do you lean towards just having Identical
-        separate ones, then.\\r\\n\\nBenjamin Fleischer: Yes. I mean, it&#39;s Having.
-        Yeah, that that&#39;s certainly the the way things normally work, but I don&#39;t
-        know if that&#39;s confusing to them. Like I don&#39;t I don&#39;t just because
-        it&#39;s confusing to me, doesn&#39;t mean it&#39;s confusing to them like\\r\\n\\nSean
-        Devine: I think I&#39;d leaned that way.\\r\\n\\nBenjamin Fleischer:  I mean
-        because like Kayla or Jim asked Kayla, I do you plan on using the same parameters.
-        For this, we&#39;ll just add the sites like I so I don&#39;t know. So I don&#39;t,
-        I don&#39;t know. Who is the domain expert on the like, are they, are they
-        so similar that we that it&#39;s in our interest to like, we&#39;ll be fighting
-        the fighting the stream to treat them as\\r\\n\\nBenjamin Fleischer:  Different
-        in this place.\\r\\n\\nSean Devine: I mean. I don&#39;t know. It seems like\\r\\n\\nSean
-        Devine:  It&#39;s it seems like I&#39;d go with, I mean, if we always if we
-        never have the same importer work across branches, that I don&#39;t know that
-        I&#39;d start now.\\r\\n\\nBenjamin Fleischer: Okay good. Other open issue.
-        Is there&#39;s an open discussion right now at the Palmer. Export that Kalan
-        air working on. That&#39;s I think I&#39;ve taken a while to respond to that
-        but I think otherwise it&#39;s going well. Same with other various integrations,
-        too many dimension. I have one release note pending right now.\\r\\n\\nSean
-        Devine: You are.\\r\\n&quot;\"}]}"
+        data. Which is a trip load count. Essentially.\\r\\n&quot;\"}]}"
     headers:
       Content-Type:
       - application/json
@@ -231,11 +200,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 16:25:09 GMT
+      - Tue, 07 Mar 2023 22:13:25 GMT
       Content-Type:
       - application/json
-      Transfer-Encoding:
-      - chunked
+      Content-Length:
+      - '1090'
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -247,18 +216,30 @@ http_interactions:
       Openai-Organization:
       - xbe
       Openai-Processing-Ms:
-      - '3886'
+      - '6140'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Request-Id:
-      - ebeb0d869a24be723b44704aabdb5a8f
+      - 90a037958c6faf7ce9c4228e2d41d3c6
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJpZCI6ImNoYXRjbXBsLTZxT3l2em5hQWtmdDE2bU90czBJOHh1czVMU1lyIiwib2JqZWN0IjoiY2hhdC5jb21wbGV0aW9uIiwiY3JlYXRlZCI6MTY3Nzk0NzEwNSwibW9kZWwiOiJncHQtMy41LXR1cmJvLTAzMDEiLCJ1c2FnZSI6eyJwcm9tcHRfdG9rZW5zIjozOTcwLCJjb21wbGV0aW9uX3Rva2VucyI6MTI2LCJ0b3RhbF90b2tlbnMiOjQwOTZ9LCJjaG9pY2VzIjpbeyJtZXNzYWdlIjp7InJvbGUiOiJhc3Npc3RhbnQiLCJjb250ZW50IjoiVGhlIG1lZXRpbmcgYXR0ZW5kZWVzIHdlcmUgQW5pc2ggR2FkZWthciwgQmVuamFtaW4gRmxlaXNjaGVyLCBDb2xlbnNvIENhc3RlbGxpbm8sIE5haXlhIFNoYWgsIFBhbmthaiBLYXRhcmlhLCBTZWFuIERldmluZSwgYW5kIFNoaXJpc2ggUGFyc2VrYXIuIFNlYW4gRGV2aW5lIGRpc2N1c3NlZCBoaXMgcHJvZ3Jlc3Mgb24gcHJvZml0LXJlbGF0ZWQgbWF0dGVycyBhbmQgbm90ZWQgYSBzdHJ1Y3R1cmUgY29uc29saWRhdGlvbiBhdCB0aGUgcHJvamVjdCBlc3RpbWF0ZSBzZXQgbGV2ZWwuIEhlIGFsc28gd29ya2VkIHdpdGggTWlsYW4gb24gdGhlIGZ1bmN0aW9uYWxpdHksIGFuZCB0aGUgdGVhbSBoYWQgYSBkZW1vIHdpdGggR2FsbGFnaGVyIG9uIE1vbmRheS4gQmVuamFtaW4gRmxlaXNjaGVyIHRlc3RlZCB0aGUgbmV3IGNoZWNrIEVCVCBBUEkgYW5kIG1hZGUgaXQgc28gdGhhdCBpZiB0aGUgcHJvbXB0ZXLigJlzIHByb21wdCBjb250ZW50IGluIGEgSlNPTiBmaWxlIGZvcm1hdCBpcyBlZGl0ZWQsIGl0IHdvdWxkIHdvcmsgYXMgZXhwZWN0ZWQuIENvbGVuc28gQ2FzdGVsbGlubyJ9LCJmaW5pc2hfcmVhc29uIjoibGVuZ3RoIiwiaW5kZXgiOjB9XX0K
-  recorded_at: Sat, 04 Mar 2023 16:25:09 GMT
+      encoding: UTF-8
+      string: '{"id":"chatcmpl-6rZqZjpiBaGA42XJaoupWKYkhmIVY","object":"chat.completion","created":1678227199,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":3363,"completion_tokens":168,"total_tokens":3531},"choices":[{"message":{"role":"assistant","content":"The
+        meeting involved attendees Anish Gadekar, Benjamin Fleischer, Colenso Castellino,
+        Naiya Shah, Pankaj Kataria, Pankaj Kataria''s Presentation, Sean Devine, and
+        Shirish Parsekar. Sean Devine spoke about making progress with profit-related
+        work and improving the answer API. Colenso Castellino discussed some bugs
+        with Google Maps API and worked on implementing page title from Amber Template.
+        Pankaj Kataria continued to work on the bulk assign form handling feature.
+        Benjamin Fleischer talked about a database connection issue and resolved some
+        casting issues. He also discussed an issue with Zynga regarding split loads
+        and added logic to handle the problem. Additionally, he mentioned an issue
+        with scientific answer and working on a feature to copy rate of grant when
+        new customers are created."},"finish_reason":"stop","index":0}]}
+
+'
+  recorded_at: Tue, 07 Mar 2023 22:13:25 GMT
 - request:
     method: post
     uri: https://api.openai.com/v1/chat/completions
@@ -269,18 +250,49 @@ http_interactions:
         transcript of the meeting is split into 2 chunks. This is the chunk number
         2 of 2.\"},{\"role\":\"assistant\",\"content\":\"Please provide me with the
         next chunk of the transcript.\"},{\"role\":\"user\",\"content\":\"&quot;Benjamin
-        Fleischer: I put in the release notes channel because they need some help
-        words within it. I think I wrote a terrible release note. I think honestly
-        like, I think I covered what I wanted to cover, and I, I just If any of you
-        feel like, You want to give it a second look? It&#39;s around a feature that
-        I shipped today. That was they come up a few times as feature bug, fix, whatever
-        is that I shipped the idea of a job production plan. Is flexible and not complete.
-        I would disallow post invoicing changes for a number of things. And that has
-        caused trouble for job production plans that are still running because they&#39;re
-        they have flexible shifts on them. And I wanted to use that as opportunity
-        to also talk about.\\r\\n\\nBenjamin Fleischer:  Why we have these validations
-        and I&#39;m pretty sure I didn&#39;t order things, right, or structure, right?\\r\\n\\nBenjamin
-        Fleischer: So, anyone looks at them,…\\r\\n\\nSean Devine: Here. Okay,…\\r\\n\\nBenjamin
+        Fleischer:  Um, there&#39;s an open integration issue right now, with Palmer
+        Peckham. Which I think would be have good to have some discussion. Doesn&#39;t,
+        I don&#39;t, I know time is precious on this call, so, I&#39;ll just mention
+        that the complicated issues that because Pac-Man and Palmer are the same customer
+        with the same tech team with two branches. Um, they&#39;ve done the worker
+        planning on doing the work to have the one integration endpoint. Return data
+        for both branches. And I&#39;m of two minds about that because it makes it
+        simple. On the one hand to have one importer that Talks to two branches and
+        maybe that&#39;s a behavior tractor. But on the other hand, it&#39;s like
+        totally different for everything else and I think it could cause other trouble.
+        And just the sort of the confusion about which branch it is. I don&#39;t.\\r\\n\\nSean
+        Devine: Hmm, where do you link them? Do you lean towards just having Identical
+        separate ones, then.\\r\\n\\nBenjamin Fleischer: Yes. I mean, it&#39;s Having.
+        Yeah, that that&#39;s certainly the the way things normally work, but I don&#39;t
+        know if that&#39;s confusing to them. Like I don&#39;t I don&#39;t just because
+        it&#39;s confusing to me, doesn&#39;t mean it&#39;s confusing to them like\\r\\n\\nSean
+        Devine: I think I&#39;d leaned that way.\\r\\n\\nBenjamin Fleischer:  I mean
+        because like Kayla or Jim asked Kayla, I do you plan on using the same parameters.
+        For this, we&#39;ll just add the sites like I so I don&#39;t know. So I don&#39;t,
+        I don&#39;t know. Who is the domain expert on the like, are they, are they
+        so similar that we that it&#39;s in our interest to like, we&#39;ll be fighting
+        the fighting the stream to treat them as\\r\\n\\nBenjamin Fleischer:  Different
+        in this place.\\r\\n\\nSean Devine: I mean. I don&#39;t know. It seems like\\r\\n\\nSean
+        Devine:  It&#39;s it seems like I&#39;d go with, I mean, if we always if we
+        never have the same importer work across branches, that I don&#39;t know that
+        I&#39;d start now.\\r\\n\\nBenjamin Fleischer: Okay good. Other open issue.
+        Is there&#39;s an open discussion right now at the Palmer. Export that Kalan
+        air working on. That&#39;s I think I&#39;ve taken a while to respond to that
+        but I think otherwise it&#39;s going well. Same with other various integrations,
+        too many dimension. I have one release note pending right now.\\r\\n\\nSean
+        Devine: You are.\\r\\n\\nBenjamin Fleischer: I put in the release notes channel
+        because they need some help words within it. I think I wrote a terrible release
+        note. I think honestly like, I think I covered what I wanted to cover, and
+        I, I just If any of you feel like, You want to give it a second look? It&#39;s
+        around a feature that I shipped today. That was they come up a few times as
+        feature bug, fix, whatever is that I shipped the idea of a job production
+        plan. Is flexible and not complete. I would disallow post invoicing changes
+        for a number of things. And that has caused trouble for job production plans
+        that are still running because they&#39;re they have flexible shifts on them.
+        And I wanted to use that as opportunity to also talk about.\\r\\n\\nBenjamin
+        Fleischer:  Why we have these validations and I&#39;m pretty sure I didn&#39;t
+        order things, right, or structure, right?\\r\\n\\nBenjamin Fleischer: So,
+        anyone looks at them,…\\r\\n\\nSean Devine: Here. Okay,…\\r\\n\\nBenjamin
         Fleischer: tells me how they use Chat Gpd to fix it up and be happy to.\\r\\n\\n00:20:00\\r\\n\\nSean
         Devine: exactly. In doing so now,\\r\\n\\nBenjamin Fleischer:  Yeah, I have
         another release date. I&#39;m going to write after that. One about adding
@@ -373,11 +385,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 16:25:13 GMT
+      - Tue, 07 Mar 2023 22:13:30 GMT
       Content-Type:
       - application/json
-      Content-Length:
-      - '1066'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -389,30 +401,18 @@ http_interactions:
       Openai-Organization:
       - xbe
       Openai-Processing-Ms:
-      - '3932'
+      - '4776'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Request-Id:
-      - 2f3e1b2a5753082270c5fe2aab170f11
+      - 4901eab44de58373addc5033a0f75ad9
     body:
-      encoding: UTF-8
-      string: '{"id":"chatcmpl-6qOyzSkqNIA10poEOgOgQLLKekN0r","object":"chat.completion","created":1677947109,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":1751,"completion_tokens":144,"total_tokens":1895},"choices":[{"message":{"role":"assistant","content":"The
-        meeting included updates from various members. Benjamin Fleischer asked for
-        help with the release notes and mentioned some upcoming releases. Shirish
-        Parsekar worked on bug fixes and small improvements but hasn''t started work
-        on vision importer for treatment location events. Naiya Shah completed time
-        card approval notification and is working on settings to opt-out of the time
-        card of pool notification. Sean Devine mentioned the caching query related
-        to the lane summary and discussed the improvement in performance after Shirish
-        Parsekar made adjustments to the query. Anish Gadekar added a business unit
-        filter on the time card and will continue working on page titles. The meeting
-        ended with Sean Devine hopeful about success on the profit stuff coming into
-        Monday."},"finish_reason":"stop","index":0}]}
-
-'
-  recorded_at: Sat, 04 Mar 2023 16:25:13 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTZyWnFmRnJXVUtGRnk3dktHbzI2Mk9iWVNHQlVMIiwib2JqZWN0IjoiY2hhdC5jb21wbGV0aW9uIiwiY3JlYXRlZCI6MTY3ODIyNzIwNSwibW9kZWwiOiJncHQtMy41LXR1cmJvLTAzMDEiLCJ1c2FnZSI6eyJwcm9tcHRfdG9rZW5zIjoyMzU4LCJjb21wbGV0aW9uX3Rva2VucyI6MTM4LCJ0b3RhbF90b2tlbnMiOjI0OTZ9LCJjaG9pY2VzIjpbeyJtZXNzYWdlIjp7InJvbGUiOiJhc3Npc3RhbnQiLCJjb250ZW50IjoiRHVyaW5nIHRoZSBtZWV0aW5nLCBzZXZlcmFsIG9wZW4gaXNzdWVzIHdlcmUgZGlzY3Vzc2VkLCBpbmNsdWRpbmcgYW4gaW50ZWdyYXRpb24gaXNzdWUgd2l0aCBQYWxtZXIgUGVja2hhbSwgdGhlIHByb2dyZXNzIG9mIHZhcmlvdXMgaW50ZWdyYXRpb25zLCBhbmQgcGVuZGluZyBjaGFuZ2VzIHRvIHRoZSBqb2IgcHJvZHVjdGlvbiBwbGFuIGZlYXR1cmUuIFRoZXJlIHdhcyBhbHNvIGEgZGlzY3Vzc2lvbiBhYm91dCBhIHF1ZXJ5IHJlbGF0ZWQgdG8gdGhlIExhbmUgc3VtbWFyeSBhbmQgaG93IGl0IGhhcyBpbXByb3ZlZCBwZXJmb3JtYW5jZSB3aXNlLiBUaGUgdGVhbSdzIHVwZGF0ZXMgaW52b2x2ZWQgd29ya2luZyBvbiBidWdzLCBpbXByb3ZlbWVudHMsIGFuZCBxdWljayBmaXhlcywgYWxvbmcgd2l0aCBwcm9ncmVzcyBvbiB2YXJpb3VzIG9uZ29pbmcgYW5kIHVwY29taW5nIGZlYXR1cmVzIHN1Y2ggYXMgdGltZSBjYXJkIGFwcHJvdmFsLCBqb2IgcHJlc2VudGF0aW9uIHBsYW4tcmVsYXRlZCBzZXR0aW5ncywgdmVuZG9yIElEcyBhY2NvdW50aW5nIHN1cHBvcnQsIGFuZCBzcGxpdCBsb2Fkcy4gRmluYWxseSwgU2VhbiBtZW50aW9uZWQgdGhhdCBoZSBhbmQgTWlsbCB3aWxsIHdvcmsgb24gdGhlIHByb2ZpdCBzdHVmZiBvdmVyIHRoZSBuZXh0IHRocmVlIGRheXMsIGFuZCB0aGUgdGVhbSBwbGFucyB0byBkZW1vIHRoZXNlIGNoYW5nZXMgb24gTW9uZGF54oCZcyBjYWxsLiJ9LCJmaW5pc2hfcmVhc29uIjoic3RvcCIsImluZGV4IjowfV19Cg==
+  recorded_at: Tue, 07 Mar 2023 22:13:30 GMT
 - request:
     method: post
     uri: https://api.openai.com/v1/chat/completions
@@ -428,24 +428,27 @@ http_interactions:
         a list of attendees.\nThe order of the sections should be overview, attendees,
         action items, and detailed notes by topic.\nWrite the summary in markdown
         format.\n"},{"role":"assistant","content":"Please provide me with notes from
-        the meeting."},{"role":"user","content":"&quot;The meeting attendees were
+        the meeting."},{"role":"user","content":"&quot;The meeting involved attendees
         Anish Gadekar, Benjamin Fleischer, Colenso Castellino, Naiya Shah, Pankaj
-        Kataria, Sean Devine, and Shirish Parsekar. Sean Devine discussed his progress
-        on profit-related matters and noted a structure consolidation at the project
-        estimate set level. He also worked with Milan on the functionality, and the
-        team had a demo with Gallagher on Monday. Benjamin Fleischer tested the new
-        check EBT API and made it so that if the prompter’s prompt content in a JSON
-        file format is edited, it would work as expected. Colenso CastellinoThe meeting
-        included updates from various members. Benjamin Fleischer asked for help with
-        the release notes and mentioned some upcoming releases. Shirish Parsekar worked
-        on bug fixes and small improvements but hasn&#39;t started work on vision
-        importer for treatment location events. Naiya Shah completed time card approval
-        notification and is working on settings to opt-out of the time card of pool
-        notification. Sean Devine mentioned the caching query related to the lane
-        summary and discussed the improvement in performance after Shirish Parsekar
-        made adjustments to the query. Anish Gadekar added a business unit filter
-        on the time card and will continue working on page titles. The meeting ended
-        with Sean Devine hopeful about success on the profit stuff coming into Monday.&quot;"}]}'
+        Kataria, Pankaj Kataria&#39;s Presentation, Sean Devine, and Shirish Parsekar.
+        Sean Devine spoke about making progress with profit-related work and improving
+        the answer API. Colenso Castellino discussed some bugs with Google Maps API
+        and worked on implementing page title from Amber Template. Pankaj Kataria
+        continued to work on the bulk assign form handling feature. Benjamin Fleischer
+        talked about a database connection issue and resolved some casting issues.
+        He also discussed an issue with Zynga regarding split loads and added logic
+        to handle the problem. Additionally, he mentioned an issue with scientific
+        answer and working on a feature to copy rate of grant when new customers are
+        created.During the meeting, several open issues were discussed, including
+        an integration issue with Palmer Peckham, the progress of various integrations,
+        and pending changes to the job production plan feature. There was also a discussion
+        about a query related to the Lane summary and how it has improved performance
+        wise. The team&#39;s updates involved working on bugs, improvements, and quick
+        fixes, along with progress on various ongoing and upcoming features such as
+        time card approval, job presentation plan-related settings, vendor IDs accounting
+        support, and split loads. Finally, Sean mentioned that he and Mill will work
+        on the profit stuff over the next three days, and the team plans to demo these
+        changes on Monday’s call.&quot;"}]}'
     headers:
       Content-Type:
       - application/json
@@ -465,11 +468,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 16:25:25 GMT
+      - Tue, 07 Mar 2023 22:13:44 GMT
       Content-Type:
       - application/json
-      Content-Length:
-      - '2327'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -481,44 +484,784 @@ http_interactions:
       Openai-Organization:
       - xbe
       Openai-Processing-Ms:
-      - '12632'
+      - '14331'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Request-Id:
-      - f7ab07c58c35c9a675867a1da7811e2e
+      - fd7fd4f0298cdbe5fb2bad06af17239a
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTZyWnFrTWVOV3hUd0p5Q0x0MWtTRURMcEZiSmxkIiwib2JqZWN0IjoiY2hhdC5jb21wbGV0aW9uIiwiY3JlYXRlZCI6MTY3ODIyNzIxMCwibW9kZWwiOiJncHQtMy41LXR1cmJvLTAzMDEiLCJ1c2FnZSI6eyJwcm9tcHRfdG9rZW5zIjo0NTEsImNvbXBsZXRpb25fdG9rZW5zIjo0NDcsInRvdGFsX3Rva2VucyI6ODk4fSwiY2hvaWNlcyI6W3sibWVzc2FnZSI6eyJyb2xlIjoiYXNzaXN0YW50IiwiY29udGVudCI6IiMgTWVldGluZyBTdW1tYXJ5XG5cbiMjIE92ZXJ2aWV3XG5UaGlzIG1lZXRpbmcgaW52b2x2ZWQgYXR0ZW5kZWVzIGRpc2N1c3NpbmcgdmFyaW91cyBpc3N1ZXMgYW5kIHVwZGF0ZXMgb24gdGhlaXIgb25nb2luZyBwcm9qZWN0cy4gU2VhbiBEZXZpbmUgZGlzY3Vzc2VkIHByb2dyZXNzIHdpdGggcHJvZml0LXJlbGF0ZWQgd29yaywgd2hpbGUgQ29sZW5zbyBDYXN0ZWxsaW5vIGFuZCBCZW5qYW1pbiBGbGVpc2NoZXIgcmVzb2x2ZWQgc29tZSBidWdzIHJlbGF0ZWQgdG8gR29vZ2xlIE1hcHMgQVBJIGFuZCBkYXRhYmFzZSBjb25uZWN0aW9ucy4gUGFua2FqIEthdGFyaWEgY29udGludWVkIHRvIHdvcmsgb24gdGhlIGJ1bGsgYXNzaWduIGZvcm0gaGFuZGxpbmcgZmVhdHVyZXMuIFxuXG4jIyBBdHRlbmRlZXNcbi0gQW5pc2ggR2FkZWthclxuLSBCZW5qYW1pbiBGbGVpc2NoZXJcbi0gQ29sZW5zbyBDYXN0ZWxsaW5vXG4tIE5haXlhIFNoYWhcbi0gUGFua2FqIEthdGFyaWFcbi0gU2VhbiBEZXZpbmVcbi0gU2hpcmlzaCBQYXJzZWthclxuXG4jIyBBY3Rpb24gSXRlbXNcbi0gU2VhbiBEZXZpbmUgYW5kIE1pbGwgdG8gd29yayBvbiB0aGUgcHJvZml0LXJlbGF0ZWQgc3R1ZmYgb3ZlciB0aGUgbmV4dCB0aHJlZSBkYXlzLlxuLSBUaGUgdGVhbSB0byBkZW1vIHRoZXNlIGNoYW5nZXMgb24gTW9uZGF54oCZcyBjYWxsLlxuXG4jIyBEZXRhaWxlZCBOb3RlcyBieSBUb3BpY1xuXG4jIyMgU2VhbiBEZXZpbmXigJlzIFVwZGF0ZXNcbi0gTWFraW5nIHByb2dyZXNzIHdpdGggcHJvZml0LXJlbGF0ZWQgd29yay5cbi0gSW1wcm92aW5nIHRoZSBhbnN3ZXIgQVBJLlxuXG4jIyMgQ29sZW5zbyBDYXN0ZWxsaW5v4oCZcyBVcGRhdGVzXG4tIERpc2N1c3NlZCBzb21lIGJ1Z3Mgd2l0aCBHb29nbGUgTWFwcyBBUEkuXG4tIFdvcmtlZCBvbiBpbXBsZW1lbnRpbmcgYSBwYWdlIHRpdGxlIGZyb20gQW1iZXIgVGVtcGxhdGUuXG5cbiMjIyBQYW5rYWogS2F0YXJpYeKAmXMgVXBkYXRlc1xuLSBDb250aW51ZWQgdG8gd29yayBvbiB0aGUgYnVsayBhc3NpZ24gZm9ybSBoYW5kbGluZyBmZWF0dXJlLlxuXG4jIyMgQmVuamFtaW4gRmxlaXNjaGVy4oCZcyBVcGRhdGVzXG4tIFJlc29sdmVkIHNvbWUgY2FzdGluZyBpc3N1ZXMuXG4tIFRhbGtlZCBhYm91dCBhIGRhdGFiYXNlIGNvbm5lY3Rpb24gaXNzdWUuXG4tIERpc2N1c3NlZCBhbiBpc3N1ZSB3aXRoIFp5bmdhIHJlZ2FyZGluZyBzcGxpdCBsb2FkcyBhbmQgYWRkZWQgbG9naWMgdG8gaGFuZGxlIHRoZSBwcm9ibGVtLlxuLSBNZW50aW9uZWQgYW4gaXNzdWUgd2l0aCBzY2llbnRpZmljIGFuc3dlciBhbmQgd29ya2luZyBvbiBhIGZlYXR1cmUgdG8gY29weSByYXRlIG9mIGdyYW50IHdoZW4gbmV3IGN1c3RvbWVycyBhcmUgY3JlYXRlZC5cblxuIyMjIE90aGVyIElzc3VlcyBEaXNjdXNzZWRcbi0gSW50ZWdyYXRpb24gaXNzdWUgd2l0aCBQYWxtZXIgUGVja2hhbS5cbi0gUHJvZ3Jlc3Mgb2YgdmFyaW91cyBpbnRlZ3JhdGlvbnMuXG4tIFBlbmRpbmcgY2hhbmdlcyB0byB0aGUgam9iIHByb2R1Y3Rpb24gcGxhbiBmZWF0dXJlLlxuLSBEaXNjdXNzaW9uIGFib3V0IGEgcXVlcnkgcmVsYXRlZCB0byB0aGUgTGFuZSBzdW1tYXJ5IGFuZCBob3cgaXQgaGFzIGltcHJvdmVkIHBlcmZvcm1hbmNlLXdpc2UuXG5cbiMjIyBPbmdvaW5nIGFuZCBVcGNvbWluZyBXb3JrXG4tIFdvcmtpbmcgb24gYnVncywgaW1wcm92ZW1lbnRzIGFuZCBxdWljayBmaXhlcy5cbi0gUHJvZ3Jlc3Mgb24gdmFyaW91cyBvbmdvaW5nIGFuZCB1cGNvbWluZyBmZWF0dXJlcyBzdWNoIGFzIHRpbWUgY2FyZCBhcHByb3ZhbCwgam9iIHByZXNlbnRhdGlvbiBwbGFuLXJlbGF0ZWQgc2V0dGluZ3MsIHZlbmRvciBJRHMgYWNjb3VudGluZyBzdXBwb3J0LCBhbmQgc3BsaXQgbG9hZHMuXG5cbiMjIEF0dGVuZGVlc1xuLSBBbmlzaCBHYWRla2FyXG4tIEJlbmphbWluIEZsZWlzY2hlclxuLSBDb2xlbnNvIENhc3RlbGxpbm9cbi0gTmFpeWEgU2hhaFxuLSBQYW5rYWogS2F0YXJpYVxuLSBTZWFuIERldmluZVxuLSBTaGlyaXNoIFBhcnNla2FyIn0sImZpbmlzaF9yZWFzb24iOiJzdG9wIiwiaW5kZXgiOjB9XX0K
+  recorded_at: Tue, 07 Mar 2023 22:13:44 GMT
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
     body:
       encoding: UTF-8
-      string: '{"id":"chatcmpl-6qOz3qpmzoCmlBv7JaZOzIR2BoL2G","object":"chat.completion","created":1677947113,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":414,"completion_tokens":423,"total_tokens":837},"choices":[{"message":{"role":"assistant","content":"#
-        Meeting Summary\nThe meeting held included updates by various members. Sean
-        discussed his progress on profit-related matters, the consolidation of structures,
-        and the demo with Gallagher on Monday. Benjamin worked on testing the new
-        check EBT API, and Colenso mentioned upcoming releases. Shirish worked on
-        bug fixes and small improvements but hasn''t started work on vision importer
-        for treatment location events. Naiya completed time card approval notification
-        and is working on settings to opt-out of the time card of pool notification.
-        Anish added a business unit filter on the time card and will continue working
-        on page titles. The meeting ended with Sean Devine feeling hopeful about success
-        on the profit stuff coming into Monday.\n\n## Attendees\n* Anish Gadekar\n*
-        Benjamin Fleischer\n* Colenso Castellino\n* Naiya Shah\n* Pankaj Kataria\n*
-        Sean Devine\n* Shirish Parsekar\n\n## Action Items\n* Benjamin requires help
-        with release notes.\n* Shirish Parsekar must work on vision importer for treatment
-        location events.\n\n## Detailed Notes\n### Sean Devine\n* Discussed progress
-        on profit-related matters.\n* Noted structure consolidation at the project
-        estimate set level.\n* Worked with Milan on the functionality.\n* Team had
-        a demo with Gallagher on Monday.\n* Mentioned caching query related to the
-        lane summary.\n* Discussed improvement in performance after Shirish Parsekar
-        made adjustments to the query.\n\n### Benjamin Fleischer\n* Tested the new
-        check EBT API.\n* Made prompter''s prompt content work as expected in a JSON
-        file format.\n* Requires help with release notes.\n\n### Colenso Castellino\n*
-        Mentioned upcoming releases.\n\n### Shirish Parsekar\n* Worked on bug fixes
-        and small improvements.\n* Need to start work on vision importer for treatment
-        location events.\n\n### Naiya Shah\n* Completed time card approval notification.\n*
-        Working on settings to opt-out of the time card pool notification.\n\n###
-        Anish Gadekar\n* Added a business unit filter on the time card.\n* Will continue
-        working on page titles."},"finish_reason":"stop","index":0}]}
+      string: '{"model":"gpt-3.5-turbo","messages":[{"role":"system","content":"You
+        are an assistant summarizing a meeting."},{"role":"system","content":"The
+        transcript of the meeting is split into 3 chunks. This is the chunk number
+        1 of 3."},{"role":"assistant","content":"Please provide me with the next chunk
+        of the transcript."},{"role":"user","content":"&quot;Banks Weekly Call  (2023-03-07
+        07:58 GMT-6) - Transcript\n\n\n\nAttendees\n\nBrittany Blawn, Brittany Blawn&#39;s
+        Presentation, Matt Lerner, Matt Lerner&#39;s Presentation, Savannah Hathaway,
+        Savannah Hathaway&#39;s Presentation\n\nTranscript\n\nThis editable transcript
+        was computer generated and might contain errors. People can also change the
+        text after it was created.\n\nBrittany Blawn: There we go. Your background
+        gets me every time I want to be there.\n\nBrittany Blawn:  Okay, share my
+        screen.\n\nBrittany Blawn: Here.\n\nSavannah Hathaway: Fourth.\n\nBrittany
+        Blawn: I think we&#39;re just waiting for Matt and Savannah.\n\nSavannah  Hathaway:   Perfect.
+        Oh my drawing, it&#39;s a spaniel Olympus.\n\nBrittany Blawn: I&#39;m sorry
+        I missed that Savannah&#39;s. What?\n\nSavannah Hathaway: It. When I join
+        us, that&#39;s famous in here. Yeah, for some reason, it&#39;s got me Martin
+        Savannah. Okay, that&#39;s that&#39;s your stand for no reason. yeah, just
+        all No reason to get excited. Right. Kitty.\n\nBrittany Blawn:  There&#39;s
+        Matt.\n\nSavannah Hathaway: I know that, so our We got a new person in the
+        office with us, that&#39;s going to be a kind of a More permanent dispatcher.\n\nSavannah
+        Hathaway: I know that they were doing something this morning. Don&#39;t campus
+        tour. I got you.\n\nSavannah Hathaway: That. So, they&#39;re around.\n\nSavannah
+        Hathaway: Spoke simulator.\n\nBrittany Blawn: So Savannah&#39;s not joining.
+        Outnicious. Okay.\n\nSavannah Hathaway: I think that&#39;s both of the savannahs
+        that are in. The call are me and Angela. After rename mine. And that&#39;s
+        the real Savannah with the real Savannah. Please stand up. It. There you go.
+        Yeah.\n\nMatt Lerner: But we have three Savannah&#39;s in here.\n\nBrittany
+        Blawn: oh,\n\nBrittany Blawn: Heads up to everyone, I&#39;m recording right
+        now so we can show you one of our new features that requires a meeting recording
+        with a transcript creation. So I&#39;m just going to go ahead and get started
+        now. There&#39;s been a new app version. Released March 6th. and, so just
+        make sure all your drivers have the latest version portable material sites
+        can have multiple active locations now,\n\nBrittany Blawn:  so, under your
+        material site, Under this portable site section. You can click Make Portable.
+        You can have multiple portable locations at the same time that are productive
+        with one of them being active, so that you can stockpile materials at a non-productive
+        location in preparation to make that the productive location. You can only
+        have one productive at a time.\n\nBrittany Blawn:  There&#39;s a video release
+        note for newsletters. It goes through all the features of the newsletters
+        and how to create them and our Kayla feature pulls from newsletters. So if
+        Banks wants to create some newsletters for Banks people. Hey Kayla will pull
+        from those newsletters when people at Banks search through. Hey Kayla. So
+        you could create content for your own users for Hey Kayla to reference. So
+        that&#39;s a really useful feature. If you want to start creating your own
+        newsletters, the Material summary and Job Summary reports. Now have a Dynamic
+        Date window. So hmm.\n\nBrittany Blawn:  These are the reports that you can
+        create in them bookmark and now you can use this offset from Today. Drop Down
+        menu. And bookmark, the page after you&#39;ve created it and each time you
+        come back to it, it will update on the date range based off of today so I&#39;d
+        like a two-week, look, back period or, you know, a one-month look, back period,
+        instead of a fixed date range. So it just makes it easier to keep viewing
+        your updated reports.\n\n00:05:00\n\nBrittany Blawn:  The board has a bulk,
+        a sign, labor and equipment feature now. so, on the board, Click this book
+        action and it allows you to bulk assign. Labor or equipment. To make that
+        faster. We&#39;ve improved Hey, Kayla. She&#39;s faster and more accurate
+        and we&#39;re continuing to add content from our side to make her even more
+        accurate, and we&#39;ll continue to improve her as time goes on.\n\nBrittany
+        Blawn: And in this last feature is the reason that I&#39;m recording. We now
+        have automated summaries for meetings, transcripts. So I created an xbe meeting
+        and…\n\nMatt Lerner: Six.\n\nBrittany Blawn: I made Savannah and Kenny attendees.
+        This is the link to our agenda. I&#39;m recording the meeting and it&#39;s
+        going to create a transcript, Google meet creates a transcript for me. I&#39;m
+        gonna copy and paste that into here and it will automatically generate a summary
+        of our meeting for us. It&#39;s not 100% perfect, but it&#39;s really close,
+        it&#39;s really good. So if you wanted to be, you know, beautiful go in and
+        just adjust it a little bit, just review what it says, but it&#39;s, it&#39;s
+        pretty spot on and a real time saver so you can go back and check this out
+        after our meetings over. I think it takes a few minutes for the transcript
+        and recording to catch up, but when that&#39;s done, I&#39;ll paste that in
+        there. And that is it for platform updates.\n\nSavannah Hathaway: oh, I have
+        some introduced to you. Is this Keisha, she&#39;s our new discomfort. Hi.\n\nBrittany
+        Blawn:  Right.\n\nBrittany Blawn:  Welcome.\n\nSavannah Hathaway: Yeah. It&#39;s
+        what I&#39;m gonna change the video.\n\nMatt Lerner: It&#39;s good. Good luck.\n\nSavannah
+        Hathaway: We can see it. If?\n\nMatt Lerner: Working with that group.\n\nMatt
+        Lerner: One thing. So, going back to the The Hey, Kayla and newsletters specific
+        to banks. One thing I thought about this, when I was talking to Brent the
+        other day was putting like, you know, like, when the PMS are putting in the
+        backlog jobs, there&#39;s certain, you know, things we want them putting in,
+        and not so it&#39;d be cool to put like a. Here&#39;s how to put a backlog
+        plan in, in as a newsletter. So then when they search, like, How do I put
+        a backlog plan and it pulls up your guys&#39;s sop for that. Or like How do
+        I change the specific mix design so like you can start putting in banks is
+        like SOPs around that.\n\nSavannah Hathaway:  Yeah.\n\nMatt Lerner: So then
+        when they ask for help it pulls up your guys&#39;s specific processes as well
+        like in addition to like our our newsletters.\n\nSavannah Hathaway:  Oh cool.\n\nMatt
+        Lerner: But it could be Banks specific stuff.\n\nSavannah Hathaway:  Yeah.
+        Can you have screenshots and newsletters?\n\nMatt Lerner:  Yes.\n\nSavannah
+        Hathaway:  Okay, so the kitties made a couple like how to documents or superintendents
+        about how to create a plan, I think. So wonder if you decided to a newsletter.\n\nMatt
+        Lerner:  Yeah, I think adding images is a little tricky because it you kind
+        of have to do it in the markdown format. Which which I&#39;m not super first
+        in. So maybe it&#39;s just a user user issue on my part. But but I know you
+        can add images to there as well.\n\nMatt Lerner:  And or like links to videos,
+        you know, things like that.\n\nSavannah Hathaway: and, One thing I wanted
+        to ask you about it,…\n\nMatt Lerner:  so, that was one thing I thought of\n\nSavannah
+        Hathaway: so on the board it was the board. Any plans for the next three weeks.
+        Really has two weeks now, we&#39;re already into the first week but Whenever
+        we look at the board, it was great. It looks very similar to our schedule
+        on Google Drive, but I think it was just a coincidence that the cruise. Were
+        to not making anything so those are the schedule. So for example, the Blue
+        crew is staying on the same job, Monday, Tuesday and Wednesday. Thursday and
+        Friday. They&#39;re moving to a second job. So it was a coincidence. I think
+        that those two jobs were in adjacent rows on the schedule. So it&#39;s, you
+        can see the blue crew all at once you see Monday, Tuesday, Wednesday, and
+        then go down a row and then you see Thursday and Friday, but I feel like at
+        some point\n\nSavannah Hathaway:  the job they&#39;re going to wouldn&#39;t
+        necessarily be in an adjacent roof so you can have to search for. Where&#39;s
+        the Blue planet? I&#39;m wondering the filter you might be best if I share
+        my screen.\n\n00:10:00\n\nMatt Lerner: Hit. Yeah, I think I know what you&#39;re
+        talking about.\n\nSavannah Hathaway:  I don&#39;t know.\n\nBrittany Blawn:
+        You.\n\nMatt Lerner: just,\n\nSavannah Hathaway: Business form.\n\nSavannah
+        Hathaway:  See. Here, this is it.\n\nSavannah Hathaway:  Just so happens.
+        The Blue Cruise, two jobs are back to back but What it wasn&#39;t. Is there
+        a way that we could get it all seem? Like, just well, I guess you don&#39;t
+        have to filter just to that one crew.\n\nMatt Lerner: Yeah, click that little
+        filter in the top right.\n\nSavannah Hathaway:  So you have to do it crew
+        by crew. There&#39;s no way to make it. look like, This, where you\n\nSavannah
+        Hathaway:  Sort sort by crew, not filter by three.\n\nMatt Lerner: So, go
+        back to the board. So essentially you&#39;d Be able to. I guess.\n\nMatt Lerner:  So,
+        that&#39;s filtering. So you&#39;d want to just Sort by.\n\nSavannah Hathaway:
+        You know, just sourcing is all but you see the blue crews entire week without
+        having to scroll?\n\nBrittany Blawn: Common.\n\nSavannah Hathaway: I know
+        that&#39;s picky, but I was just my first impression.\n\nMatt Lerner:  Yeah,
+        no, I understand it.\n\nSavannah Hathaway:  I had another question. Oh. It
+        doesn&#39;t it seems like it&#39;s gone now. But at the time, Error projects
+        showing up on here that didn&#39;t have plans. I was wondering why that was
+        but seems like that&#39;s sorted itself out.\n\nSavannah Hathaway:  Here.
+        Yeah. We\n\nSavannah Hathaway:  I think one of my\n\nSavannah Hathaway:  Mother.
+        Okay, so just we were talking made me think so. You went over with PMS how
+        to put on those backlog. Your projects. I wasn&#39;t in in that meeting but
+        I believe that I&#39;m kind of starting to do that at least for the next week
+        and Plan on two weeks and three weeks in advance. It, is it anything different
+        from just making a plan with one segment that It does all of the materials.
+        Is there a way to? Make it easier to edit for the. superintendents, once that,
+        you know, they comes\n\nSavannah Hathaway: Because right now, I&#39;m putting
+        it is.\n\nBrittany Blawn: It.\n\nSavannah Hathaway: So last week I put in
+        and this week&#39;s, Asphalts good. So far all of the superintendents are
+        making another plan. Because that&#39;s just kind of how they usually do it.
+        They&#39;ll duplicate their plan from the night before.\n\nSavannah Hathaway:  Is
+        there any way to\n\nSavannah Hathaway:  Not necessarily make a plan to have
+        it just as a kind of like this is a forecast plan, I guess extremely generic.\n\nMatt
+        Lerner: Yeah, so when you&#39;re I mean, it just comes down to how many details
+        you put in your plan, right? So kind of the purpose of putting the backlog
+        plans in, is you just kind of put in like called the bare bones or the bear
+        information required like to save a plan essentially. And I&#39;ll send you
+        the little guide that we shared with them on kind…\n\nSavannah Hathaway: Yeah.\n\nMatt
+        Lerner: what those fields are. But yeah basically you&#39;re just putting
+        in the very basic information.\n\nSavannah Hathaway:  Okay.\n\nMatt Lerner:
+        Just so when you pull up the schedule you have some you know rough idea of
+        the type of work that&#39;s going on, you know, quantities truck count, you
+        know like crew and equipment requirements that sort of thing.\n\nMatt Lerner:
+        And and…\n\nSavannah Hathaway: Yeah.\n\nMatt Lerner: then so I guess like
+        is the issue that they&#39;re creating their own plans or you just want something
+        in there for forecasting for the next couple weeks. And then whether they
+        create the plan or just use yours and tweak it, you know, you know, you know,
+        it doesn&#39;t matter to you.\n\nSavannah Hathaway:  Hey really we&#39;re
+        it doesn&#39;t matter to me. We&#39;re still just gonna work. Working out
+        what&#39;s gonna flow best for us right now. The reason we&#39;re doing it
+        is to show plants, you know, the material, demand forecast.\n\n00:15:00\n\nSavannah
+        Hathaway: um, the only thing that we were thinking is if they do start what
+        one? Changing or editing plans can get a little tricky unless you&#39;re in
+        XP every day. And asking the superintendents to do. It was if you for us and
+        then if they do or if we do say Just cancel one night shift everything over
+        on I-26 on Sundays we get less time. Yeah last time so the start times you&#39;re
+        different and to create plan the start times or you know required.\n\nSavannah
+        Hathaway:  Well. Actually don&#39;t let the required, but it&#39;s really
+        difficult. If you make a plan without being such, I want to totally in order
+        to go back and start time. Yeah, I just know it&#39;s a lot of room for error
+        whenever We? make the plan and then something when something inevitably changes
+        I guess a huge burden and maintaining the integrity of those planes.\n\nBrittany
+        Blawn: If?\n\nSavannah Hathaway:  but really, And our decision. Where the
+        ball is and Johnny support. It&#39;s figuring out, do we abandon the Google
+        Drive schedule, and go fully into Xpe or Doing not scheduled. So I don&#39;t
+        think we can do both just a lot of room for error like conflicting information.\n&quot;"}]}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_KEY>
+      Openai-Organization:
+      - "<OPENAI_ORG>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 22:13:49 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '991'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Openai-Model:
+      - gpt-3.5-turbo-0301
+      Openai-Organization:
+      - xbe
+      Openai-Processing-Ms:
+      - '4125'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      X-Request-Id:
+      - 79f79ca46b1ac1b7745a28b74d06d84c
+    body:
+      encoding: UTF-8
+      string: '{"id":"chatcmpl-6rZqzmX4ue9j1vSjGhKkfIlwkdHSA","object":"chat.completion","created":1678227225,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":3365,"completion_tokens":117,"total_tokens":3482},"choices":[{"message":{"role":"assistant","content":"During
+        the meeting, Brittany shared updates about the latest app version, which includes
+        new features such as multiple active locations for material sites, dynamic
+        date windows in reports, and automated summaries for meeting transcripts.
+        Matt suggested creating Banks-specific SOPs as newsletters and adding images
+        and links to videos to make them more useful for users. Savannah inquired
+        about the feasibility of creating forecast plans for backlog jobs and expressed
+        concern about maintaining the integrity of plans in case of changes. The team
+        also discussed the possibility of abandoning Google Drive schedule for Xpe
+        and the burden of maintaining multiple schedules with conflicting information."},"finish_reason":"stop","index":0}]}
 
 '
-  recorded_at: Sat, 04 Mar 2023 16:25:25 GMT
+  recorded_at: Tue, 07 Mar 2023 22:13:49 GMT
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-3.5-turbo","messages":[{"role":"system","content":"You
+        are an assistant summarizing a meeting."},{"role":"system","content":"The
+        transcript of the meeting is split into 3 chunks. This is the chunk number
+        2 of 3."},{"role":"assistant","content":"Please provide me with the next chunk
+        of the transcript."},{"role":"user","content":"&quot;Matt Lerner: Yeah. And
+        I mean, yeah. And that&#39;s the, the purpose for the week out, two weeks,
+        plus, you know, month, whatever you want to call it. Consider your backlog
+        is putting those bare bones plans in and it&#39;s literally just, you know,
+        placeholders. So, you have an a rough idea. And then,…\n\nBrittany Blawn:
+        Up.\n\nMatt Lerner: you know, whether it&#39;s two, three days, prior 48 hours,
+        is when you put the fine details in, Just like they&#39;re doing now, so they&#39;re
+        building the plan for the next day, the next day, right? So that&#39;s how
+        you currently do it. So the next step would be like to put in those Bare bones
+        plans.\n\nSavannah Hathaway: Yeah.\n\nMatt Lerner: If you will just as, like,
+        placeholders again with the three main forecasting tools, so, material forecasting
+        trucking, and then your crew and equipment forecasting,\n\nSavannah Hathaway:
+        Just think, eventually we&#39;ll have to. kind of get them more indexed and
+        I&#39;m not sure or…\n\nMatt Lerner: It. Yeah,…\n\nSavannah Hathaway: just
+        three hours how\n\nMatt Lerner: and it&#39;s So have the PM stopped putting
+        in the backlog and like now you guys are starting to do that or what&#39;s
+        the? Where&#39;s that come full circle at? Yeah.\n\nSavannah Hathaway: I&#39;m
+        not really sure. A little bit now, but I think the biggest the biggest pain
+        trying to edit plans,…\n\nMatt Lerner:  Okay.\n\nSavannah Hathaway: like,
+        for the superintendents is changing the material types. They really struggle
+        getting. Of an old material type off of the plan. Usually, because it&#39;s
+        either, it&#39;s still attached to the segments and they try to delete it.
+        It won&#39;t let them. Feel. This has got a damn pat now he can do it. But
+        then sometimes we switch plants,…\n\nBrittany Blawn: If?\n\nSavannah Hathaway:
+        then the old material site so on there, so it won&#39;t let them delete.\n\nSavannah
+        Hathaway:  I don&#39;t really want to delete material type because it makes
+        the materials start site unknown. For those kinds of errors, they&#39;re the
+        biggest hurdles for our superintendents.\n\nMatt Lerner: Okay, would like
+        a short video on,…\n\nSavannah Hathaway: let&#39;s,\n\nMatt Lerner: like the
+        best way to do that, help. Do you think or What do you?\n\nSavannah Hathaway:  Yeah,
+        maybe it hurts. I struggles sometimes with the default turkey and start state
+        so but it messes me up, too.\n\nMatt Lerner: so, like…\n\nSavannah Hathaway:  but,\n\nMatt
+        Lerner: if that&#39;s set for Charleston and then for some reason you need
+        to switch to Somerville, you know, like you go in, do the material swap but
+        then you get errors about the start site being Different or something of that
+        nature.\n\nSavannah Hathaway: get creative shift and it says or like even
+        just turning materials off, You know, they dislocated a plan from yesterday
+        that needed you. Know 57 stone or whatever. And you just turn the materials
+        off and then you go to create a shift and it says, You…\n\nBrittany Blawn:  Up.\n\nSavannah
+        Hathaway: it&#39;s expected material site or something. Like, No, we don&#39;t
+        want it. There&#39;s a lot of things that for us, we&#39;re able to just click
+        around a good bit and get it to work, because we&#39;ve seen it so many times.
+        But yeah, the rpms are very are whatever. It&#39;s not working. We&#39;re
+        still going to do the work anyway and then record keeping after that. It&#39;s
+        Of difficult. You. I just think they need it. If they run into any hiccup
+        builder, they&#39;re just gonna be like you Know whatever we&#39;re going
+        to do or yeah. And we can only do it…\n\n00:20:00\n\nBrittany Blawn: Up.\n\nSavannah
+        Hathaway: because we live in it. So I know that&#39;s that comes with time.\n\nMatt
+        Lerner: Yeah, well, I mean they&#39;re in the field on a job on an iPad too.
+        So like sure there&#39;s there&#39;s variables that are not that,…\n\nSavannah
+        Hathaway:  Yeah.\n\nMatt Lerner: you know, aren&#39;t the most efficient.
+        So we just got to figure out how to overcome that hurdle.\n\nSavannah Hathaway:
+        I think one thing could be. I turned on the requires driving minutes and material
+        site matters features. It&#39;s really messed up a lot of people just they
+        can&#39;t find it someone who they can. Add more texts to that error message
+        say. This can be found in the planning section of the plan and the Plan Attitude
+        page, something like that. Well. Yeah,…\n\nMatt Lerner: Yeah, a little more
+        direction instead of Yeah,…\n\nSavannah Hathaway: where to put it.\n\nMatt
+        Lerner: that&#39;s that&#39;s good feedback. Are you did you make a note of
+        that? I guess you&#39;re the transcript,…\n\nBrittany Blawn: Yes. Yeah,…\n\nMatt
+        Lerner: don&#39;t we?\n\nBrittany Blawn: I know I&#39;ve been\n\nBrittany
+        Blawn: Action items and everything. So,\n\nSavannah Hathaway: It will separate
+        actions.\n\nBrittany Blawn:  Yeah.\n\nMatt Lerner: do you have to clearly
+        say it like\n\nSavannah Hathaway:  Action. I know.\n\nBrittany Blawn:  I&#39;m
+        not sure, actually, I don&#39;t think.\n\nMatt Lerner:  Brittany will put
+        a feature request in for better air, notification messages.\n\nSavannah Hathaway:  Highlight
+        this. And now,\n\nMatt Lerner:  But yeah that&#39;s a pretty simple thing
+        for us to add is a little more words or verbs around that.\n\nSavannah Hathaway:  But
+        I do think that. No huge action items on that. We&#39;re just really, we&#39;re
+        trying to work through what our best process is gonna be. So\n\nMatt Lerner:
+        Okay. Whilst?\n\nSavannah Hathaway:  But I did it to. Yeah, good.\n\nMatt
+        Lerner:  Was to say, I&#39;ll send over that what I shared with them as a
+        just you have it as reference and a starting point but more than happy to
+        help you guys troubleshoot that process or whatever&#39;s needed.\n\nBrittany
+        Blawn: Up.\n\nSavannah Hathaway:  Sounds good. So I did have two that, you
+        know, I&#39;ve written down the other day.\n\nSavannah Hathaway:  Either last
+        week week before, Savannah wasn&#39;t here. And she asked How to? Reopen a
+        pre-approval or like take the pre-approval away. So actually saw the process
+        that she did and you know, she did deleted the time card but then it says
+        that you know, pre-approval still exist or pre-approval exist but no time
+        card exists or something like that. You just\n\nMatt Lerner: Did you?\n\nSavannah
+        Hathaway:  Yeah.\n\nMatt Lerner: Did you cancel the auto submission prior
+        to deleting the time card?\n\nSavannah Hathaway:  Oh so whenever you well
+        that&#39;s what I was thinking as well. So I would maybe financial sections,
+        click on actions and at that point, all it says is submit. There&#39;s no
+        cancel on approve or or anything like that. Click on the time. So like look
+        Wednesday.\n\nSavannah Hathaway: Was an argument.\n\nBrittany Blawn: Up.\n\nSavannah
+        Hathaway: Yeah, so let&#39;s find out.\n\nSavannah Hathaway:  Some.\n\nSavannah
+        Hathaway:  Intermission. Presentation.\n\nSavannah Hathaway:  All right, so
+        tell it, let&#39;s find out this job this morning. I go here.\n\nSavannah
+        Hathaway:  Oh, cancel all the banks mission drive the top. What do you know?
+        Right in front of us? There&#39;s so many words. I just get in the rhythm
+        and it delete boom, move on. Yeah.\n\nMatt Lerner: Yeah, go back to the job
+        plan, if you will. To the Financial section. because I think if you try clicking
+        actions,\n\nMatt Lerner:  does it say anything? Okay, so just as auto submission
+        scheduled And then scroll a little bit back up or close that. And then click
+        on Edit, pre-approval. I just want to see what that screen brings up.\n\nBrittany
+        Blawn: Senate.\n\nMatt Lerner: Okay, so there&#39;s nothing that&#39;s just
+        added in the, okay? So you have to click into the time card to see it or…\n\nSavannah
+        Hathaway: so, Automatic conditions well and…\n\nMatt Lerner: do it.\n\nSavannah
+        Hathaway: then delete the time card. Works.\n\nMatt Lerner:  Yeah.\n\nMatt
+        Lerner:  and I&#39;ll make sure that that&#39;s like, because I feel like
+        if you delete the time card, it should, Remove the pre-approval Automax emission,
+        but I&#39;ll make sure that that&#39;s the intended flow on that.\n\n00:25:00\n\nSavannah
+        Hathaway: I feel it might because there is a little tiny text box that pops
+        up whenever you delete the time code it does warn you approval still exists.
+        So I thought there&#39;s there&#39;s some customer that has a use case for
+        that. but, Staring me in the face.\n\nMatt Lerner:  Yeah.\n\nSavannah Hathaway:
+        Thank you.\n\nMatt Lerner:  Yeah.\n\nSavannah Hathaway:  And then last week
+        I&#39;d asked if there was some sort of supporting document that, you know,
+        would back up our invoices was into customers and he had said that time card
+        details or something like that and you gave me example and that&#39;s pretty
+        much what our invoices look like it or have that data on it, so, Area suggest
+        to give them access. I was hoping that you&#39;d be able to masquerade as
+        one of our customers that we do give access to so that we can see what they
+        see. Because we don&#39;t necessarily want them to see everything.\n\nBrittany
+        Blawn: See the e-ticketing?\n\nMatt Lerner: Well, they want more of the time
+        card details. So when they get the invoice,…\n\nSavannah Hathaway:  Yeah.\n\nMatt
+        Lerner: it&#39;s like eight hours that, you know, hundred bucks an hour for
+        800, but they want to see Was it 8 am to 4 pm or seven a, you know?\n\nSavannah
+        Hathaway: even more than that,…\n\nMatt Lerner: I mean the\n\nSavannah Hathaway:
+        they just You know, because I sent them, you know, start time and time total
+        hours, pretty much all of their trucks and I even took screenshots of the
+        line GPS graph.\n\nMatt Lerner:  right.\n\nSavannah Hathaway:  It, their questioning,
+        the GPS, crap. How do we know that? The top lines actually Summerville playing
+        at the bottom line is actually our job. So it is at the justice but it would
+        give them access and exped and they were clearly see that. The materials that
+        you said is the plant, the job site says, their job site and then they see
+        the truck paying back and forth along with the associated tickets that came
+        from the plant.\n\nMatt Lerner: Yeah, what&#39;s one of the what&#39;s Proper.\n\nSavannah
+        Hathaway: so, our Garrett Stevenson is the proper paving and he does have
+        access So,…\n\nMatt Lerner:  Okay.\n\nSavannah Hathaway: my biggest concern
+        is that they would see it. On the financials. Section How far right? It&#39;ll
+        give you the dollar amount and we have a different trucker.\n\nMatt Lerner:
+        Yeah, it would. You. They would only see the customer amount.\n\nSavannah
+        Hathaway: We do a customer and wasn&#39;t which they see Okay, I see the trigger
+        around.\n\nMatt Lerner: Right? Because you&#39;re a branch broker member.
+        So you see the trucker and the customer if they&#39;re accustomed,…\n\nSavannah
+        Hathaway:  Okay.\n\nMatt Lerner: only a customer and then the trucker only
+        sees the trucker side. So okay, so Garrett\n\nMatt Lerner:  Actually.\n\nSavannah
+        Hathaway:  Hey buddy, what&#39;s up? They&#39;re going like this year, right?\n\nSavannah
+        Hathaway: You. Know.\n\nMatt Lerner:  All right, can you see that?\n\nSavannah
+        Hathaway: Oh yes.\n\nBrittany Blawn: It.\n\nMatt Lerner:  There we go. All
+        right. So I&#39;m gonna\n\nMatt Lerner: Masquerade is Garrett. So this would
+        be his browse page. This would be his You…\n\nSavannah Hathaway:  See, we
+        want to go to the\n\nMatt Lerner: set. Say it again.\n\nSavannah Hathaway:  We
+        want to see his plans.\n\nMatt Lerner:  Yeah. So this is the developers like
+        where the e-ticketing would live and then this would be where the actual plans
+        are Is there a job today?\n\nSavannah Hathaway: No. We&#39;ve been under release
+        paving on our job, so we set it up in the paving customer.\n\nSavannah Hathaway:  It&#39;s
+        been a while. I know we could Paragon is painting for us tomorrow. So, I know
+        we can set it up in their customer but then set it to the project. If I don&#39;t
+        really want to Do that. I might confuse death. Do it though. Then we&#39;re
+        doing.\n\nMatt Lerner: Do you know the last day that there was a job under
+        here? Potentially.\n\nSavannah Hathaway:  um,\n\nSavannah Hathaway:  It&#39;s
+        about.\n\nMatt Lerner:  I want to show you the time card management which
+        is where they could see all the details. Pretty clearly.\n\nSavannah Hathaway:  Right.
+        24th. In the third or 24th of February.\n\nSavannah Hathaway:  Nope. Maybe
+        the 17th.\n\nMatt Lerner:  Oh wait, I&#39;m on all plans. That might be the
+        issue.\n\nSavannah Hathaway:  Right. 17. And Friday.\n\nMatt Lerner: There
+        we go. So they could come into,…\n\nBrittany Blawn: Yeah.\n\nMatt Lerner:
+        you know, just like you guys use time card management. So these would be their
+        three.\n\n00:30:00\n\nBrittany Blawn:  Sure.\n\nSavannah Hathaway:  I like,\n\nMatt
+        Lerner: So, they would see like this data. and then,…\n\nSavannah Hathaway:  The
+        cause. Three. Not.\n\nMatt Lerner: That might be it depends on if he I didn&#39;t
+        check to see if he&#39;s a manager or an ops user. Under proper.\n\nSavannah
+        Hathaway:  oh,\n\nMatt Lerner: So if he&#39;s an ops user, this, it&#39;s
+        like blanked out. So you would just see the total hours.\n\nSavannah Hathaway:  okay.\n\nMatt
+        Lerner:  But let me like, so here&#39;s he can come into the plan, right?\n\nSavannah
+        Hathaway:  That was the last.\n\nMatt Lerner:  You know, and see the Material
+        Site job site.\n\nSavannah Hathaway: Like us to stay groups fast. That&#39;s
+        the banks. Just\n\nSavannah Hathaway:  so that only after that, can they at
+        a time card? Because it&#39;s under their names.\n\nMatt Lerner: Can can they
+        can they what?\n\nSavannah Hathaway:  Can they edit time card? Because I just
+        see the link there.\n&quot;"}]}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_KEY>
+      Openai-Organization:
+      - "<OPENAI_ORG>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 22:13:56 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1294'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Openai-Model:
+      - gpt-3.5-turbo-0301
+      Openai-Organization:
+      - xbe
+      Openai-Processing-Ms:
+      - '7099'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      X-Request-Id:
+      - 6681de049f9b0c168d0073b410ddc15d
+    body:
+      encoding: UTF-8
+      string: '{"id":"chatcmpl-6rZr3BPmbnPqsraZSmjt2oUtE4v1c","object":"chat.completion","created":1678227229,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":3593,"completion_tokens":191,"total_tokens":3784},"choices":[{"message":{"role":"assistant","content":"During
+        this section of the meeting, Matt Lerner and the team discussed the process
+        of creating bare bones plans as placeholders for forecasting tools. They also
+        discussed an issue in editing plans for superintendents and the biggest hurdles
+        for them, particularly deleting old material types. They discussed the need
+        for a short video that would help the superintendents to do that more efficiently.
+        Savannah expressed that a supporting document was needed to back up their
+        invoices to customers. Matt suggested that the time card details which contain
+        details of when work is done and how long it took should be included in the
+        invoices. Savannah noted that some customers want to see more than just time
+        and dollar amounts, and Brittany suggested that they should be given access
+        to Expex so that they can see the materials, plant, job site, and associated
+        trucking tickets. Matt then masqueraded as one of their customers to show
+        Savannah and Brittany the details customers would see on their invoices."},"finish_reason":null,"index":0}]}
+
+'
+  recorded_at: Tue, 07 Mar 2023 22:13:56 GMT
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-3.5-turbo","messages":[{"role":"system","content":"You
+        are an assistant summarizing a meeting."},{"role":"system","content":"The
+        transcript of the meeting is split into 3 chunks. This is the chunk number
+        3 of 3."},{"role":"assistant","content":"Please provide me with the next chunk
+        of the transcript."},{"role":"user","content":"&quot;Savannah Hathaway:  Now
+        see that&#39;s that&#39;s not good. But it does well because it&#39;s well,
+        that&#39;s because it&#39;s like, you know, the day after the day of you cut
+        the trucks have time and half.\n\nMatt Lerner:  Do they not cut the trucks
+        on the job anyway?\n\nSavannah Hathaway:  No. Well they&#39;re like verbally,
+        tell them.\n\nMatt Lerner: Yeah.\n\nMatt Lerner: yes, it looks like I guess,…\n\nSavannah
+        Hathaway:  Text you.\n\nMatt Lerner: let me see what his membership level
+        is.\n\nSavannah Hathaway:  so, that would be Beatles.\n\nMatt Lerner:  Oh,
+        he is a manager.\n\nSavannah Hathaway:  Okay, change and operations.\n\nSavannah
+        Hathaway:  Rather than how much can they see that? Oh yeah.\n\nBrittany Blawn:
+        Edit button.\n\nSavannah Hathaway:  First.\n\nMatt Lerner: What&#39;s up?
+        Brittany. No,…\n\nBrittany Blawn:  The pencil at the top to change from.\n\nMatt
+        Lerner: I was seeing what? If there&#39;s a an option there, there&#39;s that.
+        Setting, where OPs users can only view plans?\n\nSavannah Hathaway:  Okay.
+        Following signs that. That&#39;s interesting. If he is already says the ops.
+        Or ministries or for the process, don&#39;t show up outside of that. Oh, really.
+        Just, I mean, they&#39;ll see the cost on invoice. I just don&#39;t want to
+        be hurt information.\n\nMatt Lerner: Yeah.\n\nSavannah Hathaway:  It may have
+        more technology. It&#39;s\n\nMatt Lerner:  Because I think now that he&#39;s
+        an ops user, he can&#39;t technically view this plan. So when I came into
+        this plan, there was that red air\n\nMatt Lerner:  because he&#39;s not like
+        assigned to the plan or on the plan as a subscriber.\n\nSavannah Hathaway:  What?
+        We might have my default subscribe.\n\nMatt Lerner:  yeah, then he would be
+        able to but see how this not found.\n\nSavannah Hathaway:  Accidentally.\n\nSavannah
+        Hathaway: But Spitzer. They match Taylor. It&#39;s look at it. It&#39;s like
+        it&#39;s the point that looks it looks probably can&#39;t see it on the\n\nSavannah
+        Hathaway:  plan, they can go. Some current management.\n\nSavannah Hathaway:  As
+        operations.\n\nMatt Lerner: Yeah, I don&#39;t I don&#39;t I can&#39;t tell
+        if like the masqueradian&#39;s not accurate or or what so we&#39;re working
+        on some like permissions documents so I don&#39;t know. This has been covered
+        in that Brittany.\n\nSavannah Hathaway:  There.\n\nBrittany Blawn: It up now.\n\nMatt
+        Lerner: because yeah, you wouldn&#39;t have any my plans\n\nSavannah Hathaway:
+        I have. Up.\n\nMatt Lerner:  Let me do.\n\nMatt Lerner:  This.\n\n00:35:00\n\nBrittany
+        Blawn: so, under the customer,\n\nSavannah Hathaway: but, you know, A whole
+        state of.\n\nBrittany Blawn: The managers.\n\nSavannah Hathaway: S. And I
+        wish.\n\nBrittany Blawn: Can see the time cards. And so can operations. Managers
+        can generate invoices. reports operations cannot\n\nMatt Lerner: So you can
+        see the time cards as a ops.\n\nBrittany Blawn:  he can see them. Yeah.\n\nSavannah
+        Hathaway:  Yeah, that&#39;s that&#39;s fine. Yeah, we want to see a tampers.\n\nBrittany
+        Blawn:  It doesn&#39;t look like there&#39;s any difference for time Card.
+        Between manager and operations.\n\nSavannah Hathaway: So operations can still
+        edit the time for now, so there&#39;s no difference. Of. Course, reviewing
+        them.\n\nBrittany Blawn:  Review.\n\nSavannah Hathaway: I thought that you
+        had a time card, approve it if you&#39;re not a manager user then you have
+        to be listed explicitly as a time put approver on that JPP in order to Or
+        anywhere.\n\nMatt Lerner: Right.\n\nBrittany Blawn:  The right. The viewing.
+        They can both see everything.\n\nMatt Lerner: If?\n\nBrittany Blawn: Time
+        card management managers can\n\nBrittany Blawn:  See, the time cards.\n\nSavannah
+        Hathaway: What you&#39;re\n\nBrittany Blawn: Updates.\n\nMatt Lerner: So it
+        sounds like you can see the time cards whether he&#39;s in Manager or Ops.\n\nSavannah
+        Hathaway:  Expensive candidate and that&#39;s that&#39;s good offseasoners.
+        Yeah. I think so. And so what they&#39;re looking at.\n\nSavannah Hathaway:  That&#39;s
+        good.\n\nMatt Lerner: If?\n\nSavannah Hathaway:  You make them we do or do
+        not need to make them subscribers.\n\nMatt Lerner:  Okay, so you can&#39;t
+        look at driver days, either. Brittany. As an ops user.\n\nMatt Lerner:  I&#39;m
+        sorry, was that Savannah?\n\nSavannah Hathaway: And we do or do not need to
+        make them job plan subscribers.\n\nMatt Lerner:  I think you do. In order
+        for them to view the job, otherwise I get this little red air that shows up
+        the plane cannot be found.\n\nSavannah Hathaway:  Okay.\n\nMatt Lerner:  It&#39;s
+        like when I try and click into here as an ops user. I get this.\n\nSavannah
+        Hathaway: Bring chocolate rock.\n\nMatt Lerner:  Plan not found.\n\nSavannah
+        Hathaway:  Even they it just pulled it out.\n\nMatt Lerner:  Yeah, that&#39;s
+        why I don&#39;t know if it&#39;s a masking issue or not because nothing else
+        is loading here.\n\nSavannah Hathaway:  The tickets from the plant.\n\nMatt
+        Lerner:  Right.\n\nMatt Lerner:  yeah, just keeps like Loading and loading.\n\nSavannah
+        Hathaway: Hear personal come over and…\n\nBrittany Blawn: If?\n\nSavannah
+        Hathaway: give me those. Yeah, commercial sure levels. Yeah.\n\nMatt Lerner:
+        Oh, yeah, well I can&#39;t even edit memberships or add people. That&#39;s
+        enough user.\n\nSavannah Hathaway:  So, all right.\n\nMatt Lerner: yes, it
+        sounds like opposite is probably the at least way to start and…\n\nBrittany
+        Blawn: If?\n\nMatt Lerner: then as Adam as a default subscriber,\n\nSavannah
+        Hathaway: Okay. Well, this is\n\nMatt Lerner: Do you want me to do that? While
+        I&#39;m in here?\n\nSavannah Hathaway:  But you. Should probably remember
+        so this is Jared. He he&#39;s fine being you know manner. Yeah well I guess.
+        It&#39;s fine. Okay.\n\n00:40:00\n\nSavannah Hathaway:  Turn on the unmanaged
+        shifts too, so they have other trucks. They can still see this to get.\n\nSavannah
+        Hathaway:  Is this plant, and Comes up to.\n\nSavannah Hathaway:  Well, I
+        think we really was. Yeah.\n\nMatt Lerner: All right.\n\nSavannah Hathaway:  Yeah,
+        I think this whole so that&#39;s you.\n\nBrittany Blawn: Yes. Yes.\n\nSavannah
+        Hathaway:  Giving us any email address?\n\nSavannah Hathaway:  And every slightly
+        good on it. Okay more. So yeah but any any problems that we run into just
+        She&#39;s an open line of communication. Talking to me mode doesn&#39;t exceed.
+        S.\n\nMatt Lerner: Yep.\n\nSavannah Hathaway:  We we know that&#39;s all I
+        got.\n\nMatt Lerner: Oh, anything else?\n\nSavannah Hathaway: That&#39;s what…\n\nMatt
+        Lerner:  Hey, Jimmy. good, you\n\nSavannah Hathaway: how are you? I&#39;m
+        in and out today.\n\nMatt Lerner:  Hey, what&#39;s new right?\n\nSavannah
+        Hathaway:  That&#39;s you, got it.\n\nMatt Lerner:  All right. Well it was
+        nice to meet you. You&#39;re working with a pretty solid team. So Should be
+        fun.\n\nSavannah Hathaway:  Nice to meet you.\n\nMatt Lerner: Will be talking
+        to you shortly.\n\nSavannah Hathaway: Yeah.\n\nMatt Lerner: All right. Good
+        to see you Angelo.\n\nSavannah Hathaway: I, Always Matt same to you. By Brittany.\n\nMatt
+        Lerner: We&#39;ll talk to you guys later. All right, bye.\n\nSavannah Hathaway:
+        Yeah, thanks guys. Yeah. Later.\n\n\n&quot;"}]}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_KEY>
+      Openai-Organization:
+      - "<OPENAI_ORG>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 22:13:59 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '769'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Openai-Model:
+      - gpt-3.5-turbo-0301
+      Openai-Organization:
+      - xbe
+      Openai-Processing-Ms:
+      - '3190'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      X-Request-Id:
+      - ff161256fd61370e9568838a1aebaaa9
+    body:
+      encoding: UTF-8
+      string: '{"id":"chatcmpl-6rZrAhhdy3NGB9XOAJ3ChKadqstYv","object":"chat.completion","created":1678227236,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":2033,"completion_tokens":88,"total_tokens":2121},"choices":[{"message":{"role":"assistant","content":"In
+        this portion of the meeting, the group discussed various permissions and access
+        rights for different types of users on the company''s platform. They also
+        talked about ways to ensure that sensitive information is not accidentally
+        shared with those who shouldn''t have access to it. The group discussed adding
+        someone named Jared as a default subscriber and turning on unmanaged shifts
+        so they could still see the plan. The meeting concluded with casual conversation
+        and goodbyes."},"finish_reason":"stop","index":0}]}
+
+'
+  recorded_at: Tue, 07 Mar 2023 22:13:59 GMT
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-3.5-turbo","messages":[{"role":"system","content":"You
+        are an assistant summarizing a meeting."},{"role":"system","content":"Notes
+        about the meeting have been compiled."},{"role":"system","content":"Your job
+        is to write a thorough summary of the meeting.\nThe summary should start with
+        a brief overview of the meeting.\nThe summary should be detailed and should
+        extract any action items that were discussed.\nThe summary should be organized
+        into sections with headings and bullet points.\nThe summary should include
+        a list of attendees.\nThe order of the sections should be overview, attendees,
+        action items, and detailed notes by topic.\nWrite the summary in markdown
+        format.\n"},{"role":"assistant","content":"Please provide me with notes from
+        the meeting."},{"role":"user","content":"&quot;During the meeting, Brittany
+        shared updates about the latest app version, which includes new features such
+        as multiple active locations for material sites, dynamic date windows in reports,
+        and automated summaries for meeting transcripts. Matt suggested creating Banks-specific
+        SOPs as newsletters and adding images and links to videos to make them more
+        useful for users. Savannah inquired about the feasibility of creating forecast
+        plans for backlog jobs and expressed concern about maintaining the integrity
+        of plans in case of changes. The team also discussed the possibility of abandoning
+        Google Drive schedule for Xpe and the burden of maintaining multiple schedules
+        with conflicting information.During this section of the meeting, Matt Lerner
+        and the team discussed the process of creating bare bones plans as placeholders
+        for forecasting tools. They also discussed an issue in editing plans for superintendents
+        and the biggest hurdles for them, particularly deleting old material types.
+        They discussed the need for a short video that would help the superintendents
+        to do that more efficiently. Savannah expressed that a supporting document
+        was needed to back up their invoices to customers. Matt suggested that the
+        time card details which contain details of when work is done and how long
+        it took should be included in the invoices. Savannah noted that some customers
+        want to see more than just time and dollar amounts, and Brittany suggested
+        that they should be given access to Expex so that they can see the materials,
+        plant, job site, and associated trucking tickets. Matt then masqueraded as
+        one of their customers to show Savannah and Brittany the details customers
+        would see on their invoices.In this portion of the meeting, the group discussed
+        various permissions and access rights for different types of users on the
+        company&#39;s platform. They also talked about ways to ensure that sensitive
+        information is not accidentally shared with those who shouldn&#39;t have access
+        to it. The group discussed adding someone named Jared as a default subscriber
+        and turning on unmanaged shifts so they could still see the plan. The meeting
+        concluded with casual conversation and goodbyes.&quot;"}]}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_KEY>
+      Openai-Organization:
+      - "<OPENAI_ORG>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Mar 2023 22:14:16 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3232'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Openai-Model:
+      - gpt-3.5-turbo-0301
+      Openai-Organization:
+      - xbe
+      Openai-Processing-Ms:
+      - '17169'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      X-Request-Id:
+      - 852cb1f2eec11fe4bc5b867db1996b30
+    body:
+      encoding: UTF-8
+      string: '{"id":"chatcmpl-6rZrD3h62BhKbKixTGPIVPEXHC36L","object":"chat.completion","created":1678227239,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":538,"completion_tokens":549,"total_tokens":1087},"choices":[{"message":{"role":"assistant","content":"#
+        Meeting Summary\n\n## Overview \n\nDuring the meeting, the team discussed
+        updates to the latest app version. They also discussed the creation of Banks-specific
+        SOPs as newsletters and the feasibility of creating forecast plans for backlog
+        jobs. The team also talked about the process of creating bare bones plans
+        as placeholders for forecasting tools, and the need for supporting documents
+        to back up invoices. The group also discussed permissions and access rights
+        for different types of users on the company''s platform.\n\n## Attendees\n\n-
+        Brittany\n- Matt\n- Savannah\n- Jared\n\n## Action Items\n\n- Create Banks-specific
+        SOPs as newsletters with images and links to videos.\n- Create a short video
+        to help superintendents delete old material types more efficiently.\n- Develop
+        a supporting document to back up invoices to customers.\n- Include time card
+        details in invoices.\n- Give customers access to Expex to see materials, plant,
+        job site, and associated trucking tickets.\n- Add Jared as a default subscriber.\n-
+        Turn on unmanaged shifts so Jared could still see the plan.\n\n## Detailed
+        Notes by Topic\n\n### Latest App Version Update\n\n- Brittany shared updates
+        to the latest app version.\n- New features include multiple active locations
+        for material sites, dynamic date windows in reports, and automated summaries
+        for meeting transcripts.\n\n### Banks-Specific SOPs \n\n- Matt suggested creating
+        Banks-specific SOPs as newsletters with images and links to videos to make
+        them more useful for users.\n\n### Forecast Plans\n\n- Savannah inquired about
+        the feasibility of creating forecast plans for backlog jobs and expressed
+        concern about maintaining the integrity of plans in case of changes.\n- Matt
+        and the team discussed the process of creating bare bones plans as placeholders
+        for forecasting tools.\n- They also discussed an issue in editing plans for
+        superintendents and discussed the need for a short video to help them delete
+        old material types more efficiently.\n\n### Supporting Documents for Invoices\n\n-
+        Savannah expressed that a supporting document was needed to back up invoices
+        to customers.\n- Matt suggested that the time card details should be included
+        in the invoices.\n- Brittany suggested that customers should be given access
+        to Expex to see materials, plant, job site, and associated trucking tickets.\n-
+        Matt masqueraded as one of their customers to show Savannah and Brittany the
+        details customers would see on their invoices.\n\n### Permissions and Access
+        Rights on the Platform\n\n- The group discussed various permissions and access
+        rights for different types of users on the company''s platform.\n- They also
+        talked about ways to ensure that sensitive information is not accidentally
+        shared with those who shouldn''t have access to it.\n\n## Attendees\n\n- Brittany\n-
+        Matt\n- Savannah\n- Jared (to be added as a default subscriber)\n\nThe meeting
+        concluded with casual conversation and goodbyes."},"finish_reason":"stop","index":0}]}
+
+'
+  recorded_at: Tue, 07 Mar 2023 22:14:16 GMT
 recorded_with: VCR 6.1.0

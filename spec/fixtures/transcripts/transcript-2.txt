@@ -1,0 +1,341 @@
+Banks Weekly Call  (2023-03-07 07:58 GMT-6) - Transcript
+
+Attendees
+Brittany Blawn, Brittany Blawn's Presentation, Matt Lerner, Matt Lerner's Presentation, Savannah Hathaway, Savannah Hathaway's Presentation
+Transcript
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+Brittany Blawn: There we go. Your background gets me every time I want to be there.
+Brittany Blawn:  Okay, share my screen.
+Brittany Blawn: Here.
+Savannah Hathaway: Fourth.
+Brittany Blawn: I think we're just waiting for Matt and Savannah.
+Savannah  Hathaway:   Perfect. Oh my drawing, it's a spaniel Olympus.
+Brittany Blawn: I'm sorry I missed that Savannah's. What?
+Savannah Hathaway: It. When I join us, that's famous in here. Yeah, for some reason, it's got me Martin Savannah. Okay, that's that's your stand for no reason. yeah, just all No reason to get excited. Right. Kitty.
+Brittany Blawn:  There's Matt.
+Savannah Hathaway: I know that, so our We got a new person in the office with us, that's going to be a kind of a More permanent dispatcher.
+Savannah Hathaway: I know that they were doing something this morning. Don't campus tour. I got you.
+Savannah Hathaway: That. So, they're around.
+Savannah Hathaway: Spoke simulator.
+Brittany Blawn: So Savannah's not joining. Outnicious. Okay.
+Savannah Hathaway: I think that's both of the savannahs that are in. The call are me and Angela. After rename mine. And that's the real Savannah with the real Savannah. Please stand up. It. There you go. Yeah.
+Matt Lerner: But we have three Savannah's in here.
+Brittany Blawn: oh,
+Brittany Blawn: Heads up to everyone, I'm recording right now so we can show you one of our new features that requires a meeting recording with a transcript creation. So I'm just going to go ahead and get started now. There's been a new app version. Released March 6th. and, so just make sure all your drivers have the latest version portable material sites can have multiple active locations now,
+Brittany Blawn:  so, under your material site, Under this portable site section. You can click Make Portable. You can have multiple portable locations at the same time that are productive with one of them being active, so that you can stockpile materials at a non-productive location in preparation to make that the productive location. You can only have one productive at a time.
+Brittany Blawn:  There's a video release note for newsletters. It goes through all the features of the newsletters and how to create them and our Kayla feature pulls from newsletters. So if Banks wants to create some newsletters for Banks people. Hey Kayla will pull from those newsletters when people at Banks search through. Hey Kayla. So you could create content for your own users for Hey Kayla to reference. So that's a really useful feature. If you want to start creating your own newsletters, the Material summary and Job Summary reports. Now have a Dynamic Date window. So hmm.
+Brittany Blawn:  These are the reports that you can create in them bookmark and now you can use this offset from Today. Drop Down menu. And bookmark, the page after you've created it and each time you come back to it, it will update on the date range based off of today so I'd like a two-week, look, back period or, you know, a one-month look, back period, instead of a fixed date range. So it just makes it easier to keep viewing your updated reports.
+00:05:00
+Brittany Blawn:  The board has a bulk, a sign, labor and equipment feature now. so, on the board, Click this book action and it allows you to bulk assign. Labor or equipment. To make that faster. We've improved Hey, Kayla. She's faster and more accurate and we're continuing to add content from our side to make her even more accurate, and we'll continue to improve her as time goes on.
+Brittany Blawn: And in this last feature is the reason that I'm recording. We now have automated summaries for meetings, transcripts. So I created an xbe meeting and…
+Matt Lerner: Six.
+Brittany Blawn: I made Savannah and Kenny attendees. This is the link to our agenda. I'm recording the meeting and it's going to create a transcript, Google meet creates a transcript for me. I'm gonna copy and paste that into here and it will automatically generate a summary of our meeting for us. It's not 100% perfect, but it's really close, it's really good. So if you wanted to be, you know, beautiful go in and just adjust it a little bit, just review what it says, but it's, it's pretty spot on and a real time saver so you can go back and check this out after our meetings over. I think it takes a few minutes for the transcript and recording to catch up, but when that's done, I'll paste that in there. And that is it for platform updates.
+Savannah Hathaway: oh, I have some introduced to you. Is this Keisha, she's our new discomfort. Hi.
+Brittany Blawn:  Right.
+Brittany Blawn:  Welcome.
+Savannah Hathaway: Yeah. It's what I'm gonna change the video.
+Matt Lerner: It's good. Good luck.
+Savannah Hathaway: We can see it. If?
+Matt Lerner: Working with that group.
+Matt Lerner: One thing. So, going back to the The Hey, Kayla and newsletters specific to banks. One thing I thought about this, when I was talking to Brent the other day was putting like, you know, like, when the PMS are putting in the backlog jobs, there's certain, you know, things we want them putting in, and not so it'd be cool to put like a. Here's how to put a backlog plan in, in as a newsletter. So then when they search, like, How do I put a backlog plan and it pulls up your guys's sop for that. Or like How do I change the specific mix design so like you can start putting in banks is like SOPs around that.
+Savannah Hathaway:  Yeah.
+Matt Lerner: So then when they ask for help it pulls up your guys's specific processes as well like in addition to like our our newsletters.
+Savannah Hathaway:  Oh cool.
+Matt Lerner: But it could be Banks specific stuff.
+Savannah Hathaway:  Yeah. Can you have screenshots and newsletters?
+Matt Lerner:  Yes.
+Savannah Hathaway:  Okay, so the kitties made a couple like how to documents or superintendents about how to create a plan, I think. So wonder if you decided to a newsletter.
+Matt Lerner:  Yeah, I think adding images is a little tricky because it you kind of have to do it in the markdown format. Which which I'm not super first in. So maybe it's just a user user issue on my part. But but I know you can add images to there as well.
+Matt Lerner:  And or like links to videos, you know, things like that.
+Savannah Hathaway: and, One thing I wanted to ask you about it,…
+Matt Lerner:  so, that was one thing I thought of
+Savannah Hathaway: so on the board it was the board. Any plans for the next three weeks. Really has two weeks now, we're already into the first week but Whenever we look at the board, it was great. It looks very similar to our schedule on Google Drive, but I think it was just a coincidence that the cruise. Were to not making anything so those are the schedule. So for example, the Blue crew is staying on the same job, Monday, Tuesday and Wednesday. Thursday and Friday. They're moving to a second job. So it was a coincidence. I think that those two jobs were in adjacent rows on the schedule. So it's, you can see the blue crew all at once you see Monday, Tuesday, Wednesday, and then go down a row and then you see Thursday and Friday, but I feel like at some point
+Savannah Hathaway:  the job they're going to wouldn't necessarily be in an adjacent roof so you can have to search for. Where's the Blue planet? I'm wondering the filter you might be best if I share my screen.
+00:10:00
+Matt Lerner: Hit. Yeah, I think I know what you're talking about.
+Savannah Hathaway:  I don't know.
+Brittany Blawn: You.
+Matt Lerner: just,
+Savannah Hathaway: Business form.
+Savannah Hathaway:  See. Here, this is it.
+Savannah Hathaway:  Just so happens. The Blue Cruise, two jobs are back to back but What it wasn't. Is there a way that we could get it all seem? Like, just well, I guess you don't have to filter just to that one crew.
+Matt Lerner: Yeah, click that little filter in the top right.
+Savannah Hathaway:  So you have to do it crew by crew. There's no way to make it. look like, This, where you
+Savannah Hathaway:  Sort sort by crew, not filter by three.
+Matt Lerner: So, go back to the board. So essentially you'd Be able to. I guess.
+Matt Lerner:  So, that's filtering. So you'd want to just Sort by.
+Savannah Hathaway: You know, just sourcing is all but you see the blue crews entire week without having to scroll?
+Brittany Blawn: Common.
+Savannah Hathaway: I know that's picky, but I was just my first impression.
+Matt Lerner:  Yeah, no, I understand it.
+Savannah Hathaway:  I had another question. Oh. It doesn't it seems like it's gone now. But at the time, Error projects showing up on here that didn't have plans. I was wondering why that was but seems like that's sorted itself out.
+Savannah Hathaway:  Here. Yeah. We
+Savannah Hathaway:  I think one of my
+Savannah Hathaway:  Mother. Okay, so just we were talking made me think so. You went over with PMS how to put on those backlog. Your projects. I wasn't in in that meeting but I believe that I'm kind of starting to do that at least for the next week and Plan on two weeks and three weeks in advance. It, is it anything different from just making a plan with one segment that It does all of the materials. Is there a way to? Make it easier to edit for the. superintendents, once that, you know, they comes
+Savannah Hathaway: Because right now, I'm putting it is.
+Brittany Blawn: It.
+Savannah Hathaway: So last week I put in and this week's, Asphalts good. So far all of the superintendents are making another plan. Because that's just kind of how they usually do it. They'll duplicate their plan from the night before.
+Savannah Hathaway:  Is there any way to
+Savannah Hathaway:  Not necessarily make a plan to have it just as a kind of like this is a forecast plan, I guess extremely generic.
+Matt Lerner: Yeah, so when you're I mean, it just comes down to how many details you put in your plan, right? So kind of the purpose of putting the backlog plans in, is you just kind of put in like called the bare bones or the bear information required like to save a plan essentially. And I'll send you the little guide that we shared with them on kind…
+Savannah Hathaway: Yeah.
+Matt Lerner: what those fields are. But yeah basically you're just putting in the very basic information.
+Savannah Hathaway:  Okay.
+Matt Lerner: Just so when you pull up the schedule you have some you know rough idea of the type of work that's going on, you know, quantities truck count, you know like crew and equipment requirements that sort of thing.
+Matt Lerner: And and…
+Savannah Hathaway: Yeah.
+Matt Lerner: then so I guess like is the issue that they're creating their own plans or you just want something in there for forecasting for the next couple weeks. And then whether they create the plan or just use yours and tweak it, you know, you know, you know, it doesn't matter to you.
+Savannah Hathaway:  Hey really we're it doesn't matter to me. We're still just gonna work. Working out what's gonna flow best for us right now. The reason we're doing it is to show plants, you know, the material, demand forecast.
+00:15:00
+Savannah Hathaway: um, the only thing that we were thinking is if they do start what one? Changing or editing plans can get a little tricky unless you're in XP every day. And asking the superintendents to do. It was if you for us and then if they do or if we do say Just cancel one night shift everything over on I-26 on Sundays we get less time. Yeah last time so the start times you're different and to create plan the start times or you know required.
+Savannah Hathaway:  Well. Actually don't let the required, but it's really difficult. If you make a plan without being such, I want to totally in order to go back and start time. Yeah, I just know it's a lot of room for error whenever We? make the plan and then something when something inevitably changes I guess a huge burden and maintaining the integrity of those planes.
+Brittany Blawn: If?
+Savannah Hathaway:  but really, And our decision. Where the ball is and Johnny support. It's figuring out, do we abandon the Google Drive schedule, and go fully into Xpe or Doing not scheduled. So I don't think we can do both just a lot of room for error like conflicting information.
+Matt Lerner: Yeah. And I mean, yeah. And that's the, the purpose for the week out, two weeks, plus, you know, month, whatever you want to call it. Consider your backlog is putting those bare bones plans in and it's literally just, you know, placeholders. So, you have an a rough idea. And then,…
+Brittany Blawn: Up.
+Matt Lerner: you know, whether it's two, three days, prior 48 hours, is when you put the fine details in, Just like they're doing now, so they're building the plan for the next day, the next day, right? So that's how you currently do it. So the next step would be like to put in those Bare bones plans.
+Savannah Hathaway: Yeah.
+Matt Lerner: If you will just as, like, placeholders again with the three main forecasting tools, so, material forecasting trucking, and then your crew and equipment forecasting,
+Savannah Hathaway: Just think, eventually we'll have to. kind of get them more indexed and I'm not sure or…
+Matt Lerner: It. Yeah,…
+Savannah Hathaway: just three hours how
+Matt Lerner: and it's So have the PM stopped putting in the backlog and like now you guys are starting to do that or what's the? Where's that come full circle at? Yeah.
+Savannah Hathaway: I'm not really sure. A little bit now, but I think the biggest the biggest pain trying to edit plans,…
+Matt Lerner:  Okay.
+Savannah Hathaway: like, for the superintendents is changing the material types. They really struggle getting. Of an old material type off of the plan. Usually, because it's either, it's still attached to the segments and they try to delete it. It won't let them. Feel. This has got a damn pat now he can do it. But then sometimes we switch plants,…
+Brittany Blawn: If?
+Savannah Hathaway: then the old material site so on there, so it won't let them delete.
+Savannah Hathaway:  I don't really want to delete material type because it makes the materials start site unknown. For those kinds of errors, they're the biggest hurdles for our superintendents.
+Matt Lerner: Okay, would like a short video on,…
+Savannah Hathaway: let's,
+Matt Lerner: like the best way to do that, help. Do you think or What do you?
+Savannah Hathaway:  Yeah, maybe it hurts. I struggles sometimes with the default turkey and start state so but it messes me up, too.
+Matt Lerner: so, like…
+Savannah Hathaway:  but,
+Matt Lerner: if that's set for Charleston and then for some reason you need to switch to Somerville, you know, like you go in, do the material swap but then you get errors about the start site being Different or something of that nature.
+Savannah Hathaway: get creative shift and it says or like even just turning materials off, You know, they dislocated a plan from yesterday that needed you. Know 57 stone or whatever. And you just turn the materials off and then you go to create a shift and it says, You…
+Brittany Blawn:  Up.
+Savannah Hathaway: it's expected material site or something. Like, No, we don't want it. There's a lot of things that for us, we're able to just click around a good bit and get it to work, because we've seen it so many times. But yeah, the rpms are very are whatever. It's not working. We're still going to do the work anyway and then record keeping after that. It's Of difficult. You. I just think they need it. If they run into any hiccup builder, they're just gonna be like you Know whatever we're going to do or yeah. And we can only do it…
+00:20:00
+Brittany Blawn: Up.
+Savannah Hathaway: because we live in it. So I know that's that comes with time.
+Matt Lerner: Yeah, well, I mean they're in the field on a job on an iPad too. So like sure there's there's variables that are not that,…
+Savannah Hathaway:  Yeah.
+Matt Lerner: you know, aren't the most efficient. So we just got to figure out how to overcome that hurdle.
+Savannah Hathaway: I think one thing could be. I turned on the requires driving minutes and material site matters features. It's really messed up a lot of people just they can't find it someone who they can. Add more texts to that error message say. This can be found in the planning section of the plan and the Plan Attitude page, something like that. Well. Yeah,…
+Matt Lerner: Yeah, a little more direction instead of Yeah,…
+Savannah Hathaway: where to put it.
+Matt Lerner: that's that's good feedback. Are you did you make a note of that? I guess you're the transcript,…
+Brittany Blawn: Yes. Yeah,…
+Matt Lerner: don't we?
+Brittany Blawn: I know I've been
+Brittany Blawn: Action items and everything. So,
+Savannah Hathaway: It will separate actions.
+Brittany Blawn:  Yeah.
+Matt Lerner: do you have to clearly say it like
+Savannah Hathaway:  Action. I know.
+Brittany Blawn:  I'm not sure, actually, I don't think.
+Matt Lerner:  Brittany will put a feature request in for better air, notification messages.
+Savannah Hathaway:  Highlight this. And now,
+Matt Lerner:  But yeah that's a pretty simple thing for us to add is a little more words or verbs around that.
+Savannah Hathaway:  But I do think that. No huge action items on that. We're just really, we're trying to work through what our best process is gonna be. So
+Matt Lerner: Okay. Whilst?
+Savannah Hathaway:  But I did it to. Yeah, good.
+Matt Lerner:  Was to say, I'll send over that what I shared with them as a just you have it as reference and a starting point but more than happy to help you guys troubleshoot that process or whatever's needed.
+Brittany Blawn: Up.
+Savannah Hathaway:  Sounds good. So I did have two that, you know, I've written down the other day.
+Savannah Hathaway:  Either last week week before, Savannah wasn't here. And she asked How to? Reopen a pre-approval or like take the pre-approval away. So actually saw the process that she did and you know, she did deleted the time card but then it says that you know, pre-approval still exist or pre-approval exist but no time card exists or something like that. You just
+Matt Lerner: Did you?
+Savannah Hathaway:  Yeah.
+Matt Lerner: Did you cancel the auto submission prior to deleting the time card?
+Savannah Hathaway:  Oh so whenever you well that's what I was thinking as well. So I would maybe financial sections, click on actions and at that point, all it says is submit. There's no cancel on approve or or anything like that. Click on the time. So like look Wednesday.
+Savannah Hathaway: Was an argument.
+Brittany Blawn: Up.
+Savannah Hathaway: Yeah, so let's find out.
+Savannah Hathaway:  Some.
+Savannah Hathaway:  Intermission. Presentation.
+Savannah Hathaway:  All right, so tell it, let's find out this job this morning. I go here.
+Savannah Hathaway:  Oh, cancel all the banks mission drive the top. What do you know? Right in front of us? There's so many words. I just get in the rhythm and it delete boom, move on. Yeah.
+Matt Lerner: Yeah, go back to the job plan, if you will. To the Financial section. because I think if you try clicking actions,
+Matt Lerner:  does it say anything? Okay, so just as auto submission scheduled And then scroll a little bit back up or close that. And then click on Edit, pre-approval. I just want to see what that screen brings up.
+Brittany Blawn: Senate.
+Matt Lerner: Okay, so there's nothing that's just added in the, okay? So you have to click into the time card to see it or…
+Savannah Hathaway: so, Automatic conditions well and…
+Matt Lerner: do it.
+Savannah Hathaway: then delete the time card. Works.
+Matt Lerner:  Yeah.
+Matt Lerner:  and I'll make sure that that's like, because I feel like if you delete the time card, it should, Remove the pre-approval Automax emission, but I'll make sure that that's the intended flow on that.
+00:25:00
+Savannah Hathaway: I feel it might because there is a little tiny text box that pops up whenever you delete the time code it does warn you approval still exists. So I thought there's there's some customer that has a use case for that. but, Staring me in the face.
+Matt Lerner:  Yeah.
+Savannah Hathaway: Thank you.
+Matt Lerner:  Yeah.
+Savannah Hathaway:  And then last week I'd asked if there was some sort of supporting document that, you know, would back up our invoices was into customers and he had said that time card details or something like that and you gave me example and that's pretty much what our invoices look like it or have that data on it, so, Area suggest to give them access. I was hoping that you'd be able to masquerade as one of our customers that we do give access to so that we can see what they see. Because we don't necessarily want them to see everything.
+Brittany Blawn: See the e-ticketing?
+Matt Lerner: Well, they want more of the time card details. So when they get the invoice,…
+Savannah Hathaway:  Yeah.
+Matt Lerner: it's like eight hours that, you know, hundred bucks an hour for 800, but they want to see Was it 8 am to 4 pm or seven a, you know?
+Savannah Hathaway: even more than that,…
+Matt Lerner: I mean the
+Savannah Hathaway: they just You know, because I sent them, you know, start time and time total hours, pretty much all of their trucks and I even took screenshots of the line GPS graph.
+Matt Lerner:  right.
+Savannah Hathaway:  It, their questioning, the GPS, crap. How do we know that? The top lines actually Summerville playing at the bottom line is actually our job. So it is at the justice but it would give them access and exped and they were clearly see that. The materials that you said is the plant, the job site says, their job site and then they see the truck paying back and forth along with the associated tickets that came from the plant.
+Matt Lerner: Yeah, what's one of the what's Proper.
+Savannah Hathaway: so, our Garrett Stevenson is the proper paving and he does have access So,…
+Matt Lerner:  Okay.
+Savannah Hathaway: my biggest concern is that they would see it. On the financials. Section How far right? It'll give you the dollar amount and we have a different trucker.
+Matt Lerner: Yeah, it would. You. They would only see the customer amount.
+Savannah Hathaway: We do a customer and wasn't which they see Okay, I see the trigger around.
+Matt Lerner: Right? Because you're a branch broker member. So you see the trucker and the customer if they're accustomed,…
+Savannah Hathaway:  Okay.
+Matt Lerner: only a customer and then the trucker only sees the trucker side. So okay, so Garrett
+Matt Lerner:  Actually.
+Savannah Hathaway:  Hey buddy, what's up? They're going like this year, right?
+Savannah Hathaway: You. Know.
+Matt Lerner:  All right, can you see that?
+Savannah Hathaway: Oh yes.
+Brittany Blawn: It.
+Matt Lerner:  There we go. All right. So I'm gonna
+Matt Lerner: Masquerade is Garrett. So this would be his browse page. This would be his You…
+Savannah Hathaway:  See, we want to go to the
+Matt Lerner: set. Say it again.
+Savannah Hathaway:  We want to see his plans.
+Matt Lerner:  Yeah. So this is the developers like where the e-ticketing would live and then this would be where the actual plans are Is there a job today?
+Savannah Hathaway: No. We've been under release paving on our job, so we set it up in the paving customer.
+Savannah Hathaway:  It's been a while. I know we could Paragon is painting for us tomorrow. So, I know we can set it up in their customer but then set it to the project. If I don't really want to Do that. I might confuse death. Do it though. Then we're doing.
+Matt Lerner: Do you know the last day that there was a job under here? Potentially.
+Savannah Hathaway:  um,
+Savannah Hathaway:  It's about.
+Matt Lerner:  I want to show you the time card management which is where they could see all the details. Pretty clearly.
+Savannah Hathaway:  Right. 24th. In the third or 24th of February.
+Savannah Hathaway:  Nope. Maybe the 17th.
+Matt Lerner:  Oh wait, I'm on all plans. That might be the issue.
+Savannah Hathaway:  Right. 17. And Friday.
+Matt Lerner: There we go. So they could come into,…
+Brittany Blawn: Yeah.
+Matt Lerner: you know, just like you guys use time card management. So these would be their three.
+00:30:00
+Brittany Blawn:  Sure.
+Savannah Hathaway:  I like,
+Matt Lerner: So, they would see like this data. and then,…
+Savannah Hathaway:  The cause. Three. Not.
+Matt Lerner: That might be it depends on if he I didn't check to see if he's a manager or an ops user. Under proper.
+Savannah Hathaway:  oh,
+Matt Lerner: So if he's an ops user, this, it's like blanked out. So you would just see the total hours.
+Savannah Hathaway:  okay.
+Matt Lerner:  But let me like, so here's he can come into the plan, right?
+Savannah Hathaway:  That was the last.
+Matt Lerner:  You know, and see the Material Site job site.
+Savannah Hathaway: Like us to stay groups fast. That's the banks. Just
+Savannah Hathaway:  so that only after that, can they at a time card? Because it's under their names.
+Matt Lerner: Can can they can they what?
+Savannah Hathaway:  Can they edit time card? Because I just see the link there.
+Savannah Hathaway:  Now see that's that's not good. But it does well because it's well, that's because it's like, you know, the day after the day of you cut the trucks have time and half.
+Matt Lerner:  Do they not cut the trucks on the job anyway?
+Savannah Hathaway:  No. Well they're like verbally, tell them.
+Matt Lerner: Yeah.
+Matt Lerner: yes, it looks like I guess,…
+Savannah Hathaway:  Text you.
+Matt Lerner: let me see what his membership level is.
+Savannah Hathaway:  so, that would be Beatles.
+Matt Lerner:  Oh, he is a manager.
+Savannah Hathaway:  Okay, change and operations.
+Savannah Hathaway:  Rather than how much can they see that? Oh yeah.
+Brittany Blawn: Edit button.
+Savannah Hathaway:  First.
+Matt Lerner: What's up? Brittany. No,…
+Brittany Blawn:  The pencil at the top to change from.
+Matt Lerner: I was seeing what? If there's a an option there, there's that. Setting, where OPs users can only view plans?
+Savannah Hathaway:  Okay. Following signs that. That's interesting. If he is already says the ops. Or ministries or for the process, don't show up outside of that. Oh, really. Just, I mean, they'll see the cost on invoice. I just don't want to be hurt information.
+Matt Lerner: Yeah.
+Savannah Hathaway:  It may have more technology. It's
+Matt Lerner:  Because I think now that he's an ops user, he can't technically view this plan. So when I came into this plan, there was that red air
+Matt Lerner:  because he's not like assigned to the plan or on the plan as a subscriber.
+Savannah Hathaway:  What? We might have my default subscribe.
+Matt Lerner:  yeah, then he would be able to but see how this not found.
+Savannah Hathaway:  Accidentally.
+Savannah Hathaway: But Spitzer. They match Taylor. It's look at it. It's like it's the point that looks it looks probably can't see it on the
+Savannah Hathaway:  plan, they can go. Some current management.
+Savannah Hathaway:  As operations.
+Matt Lerner: Yeah, I don't I don't I can't tell if like the masqueradian's not accurate or or what so we're working on some like permissions documents so I don't know. This has been covered in that Brittany.
+Savannah Hathaway:  There.
+Brittany Blawn: It up now.
+Matt Lerner: because yeah, you wouldn't have any my plans
+Savannah Hathaway: I have. Up.
+Matt Lerner:  Let me do.
+Matt Lerner:  This.
+00:35:00
+Brittany Blawn: so, under the customer,
+Savannah Hathaway: but, you know, A whole state of.
+Brittany Blawn: The managers.
+Savannah Hathaway: S. And I wish.
+Brittany Blawn: Can see the time cards. And so can operations. Managers can generate invoices. reports operations cannot
+Matt Lerner: So you can see the time cards as a ops.
+Brittany Blawn:  he can see them. Yeah.
+Savannah Hathaway:  Yeah, that's that's fine. Yeah, we want to see a tampers.
+Brittany Blawn:  It doesn't look like there's any difference for time Card. Between manager and operations.
+Savannah Hathaway: So operations can still edit the time for now, so there's no difference. Of. Course, reviewing them.
+Brittany Blawn:  Review.
+Savannah Hathaway: I thought that you had a time card, approve it if you're not a manager user then you have to be listed explicitly as a time put approver on that JPP in order to Or anywhere.
+Matt Lerner: Right.
+Brittany Blawn:  The right. The viewing. They can both see everything.
+Matt Lerner: If?
+Brittany Blawn: Time card management managers can
+Brittany Blawn:  See, the time cards.
+Savannah Hathaway: What you're
+Brittany Blawn: Updates.
+Matt Lerner: So it sounds like you can see the time cards whether he's in Manager or Ops.
+Savannah Hathaway:  Expensive candidate and that's that's good offseasoners. Yeah. I think so. And so what they're looking at.
+Savannah Hathaway:  That's good.
+Matt Lerner: If?
+Savannah Hathaway:  You make them we do or do not need to make them subscribers.
+Matt Lerner:  Okay, so you can't look at driver days, either. Brittany. As an ops user.
+Matt Lerner:  I'm sorry, was that Savannah?
+Savannah Hathaway: And we do or do not need to make them job plan subscribers.
+Matt Lerner:  I think you do. In order for them to view the job, otherwise I get this little red air that shows up the plane cannot be found.
+Savannah Hathaway:  Okay.
+Matt Lerner:  It's like when I try and click into here as an ops user. I get this.
+Savannah Hathaway: Bring chocolate rock.
+Matt Lerner:  Plan not found.
+Savannah Hathaway:  Even they it just pulled it out.
+Matt Lerner:  Yeah, that's why I don't know if it's a masking issue or not because nothing else is loading here.
+Savannah Hathaway:  The tickets from the plant.
+Matt Lerner:  Right.
+Matt Lerner:  yeah, just keeps like Loading and loading.
+Savannah Hathaway: Hear personal come over and…
+Brittany Blawn: If?
+Savannah Hathaway: give me those. Yeah, commercial sure levels. Yeah.
+Matt Lerner: Oh, yeah, well I can't even edit memberships or add people. That's enough user.
+Savannah Hathaway:  So, all right.
+Matt Lerner: yes, it sounds like opposite is probably the at least way to start and…
+Brittany Blawn: If?
+Matt Lerner: then as Adam as a default subscriber,
+Savannah Hathaway: Okay. Well, this is
+Matt Lerner: Do you want me to do that? While I'm in here?
+Savannah Hathaway:  But you. Should probably remember so this is Jared. He he's fine being you know manner. Yeah well I guess. It's fine. Okay.
+00:40:00
+Savannah Hathaway:  Turn on the unmanaged shifts too, so they have other trucks. They can still see this to get.
+Savannah Hathaway:  Is this plant, and Comes up to.
+Savannah Hathaway:  Well, I think we really was. Yeah.
+Matt Lerner: All right.
+Savannah Hathaway:  Yeah, I think this whole so that's you.
+Brittany Blawn: Yes. Yes.
+Savannah Hathaway:  Giving us any email address?
+Savannah Hathaway:  And every slightly good on it. Okay more. So yeah but any any problems that we run into just She's an open line of communication. Talking to me mode doesn't exceed. S.
+Matt Lerner: Yep.
+Savannah Hathaway:  We we know that's all I got.
+Matt Lerner: Oh, anything else?
+Savannah Hathaway: That's what…
+Matt Lerner:  Hey, Jimmy. good, you
+Savannah Hathaway: how are you? I'm in and out today.
+Matt Lerner:  Hey, what's new right?
+Savannah Hathaway:  That's you, got it.
+Matt Lerner:  All right. Well it was nice to meet you. You're working with a pretty solid team. So Should be fun.
+Savannah Hathaway:  Nice to meet you.
+Matt Lerner: Will be talking to you shortly.
+Savannah Hathaway: Yeah.
+Matt Lerner: All right. Good to see you Angelo.
+Savannah Hathaway: I, Always Matt same to you. By Brittany.
+Matt Lerner: We'll talk to you guys later. All right, bye.
+Savannah Hathaway: Yeah, thanks guys. Yeah. Later.
+

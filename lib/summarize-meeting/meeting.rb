@@ -4,7 +4,7 @@ require "openai"
 
 module SummarizeMeeting
   class Meeting
-    RESPONSE_RESERVE_TOKENS = 500
+    RESPONSE_RESERVE_TOKENS = 1000
 
     LINE_SUMMARY_PROMPT_TEMPLATE = [
       {
