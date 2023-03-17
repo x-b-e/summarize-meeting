@@ -1,7 +1,7 @@
 module SummarizeMeeting
   module Ai
     class OpenAiError < StandardError; end
-    MAX_TOTAL_TOKENS = 4096
+    MAX_TOTAL_TOKENS = 8000
     WORDS_PER_TOKEN = 0.75
 
     @@access_token = ENV["OPENAI_KEY"]
@@ -41,7 +41,7 @@ module SummarizeMeeting
 
     def self.chat(messages, client: self.client)
       parameters = {
-        model: "gpt-3.5-turbo",
+        model: "gpt-4",
         messages: messages,
       }
       response = client.chat(parameters: parameters)

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "summarize-meeting"
-  s.version     = "1.3.2"
+  s.version     = "1.4.0"
   s.summary     = "A command line utility that summarizes a meeting"
   s.description = "A command line utility that summarizes a meeting using generative language models."
   s.license     = "MIT"
