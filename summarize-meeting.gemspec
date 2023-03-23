@@ -1,6 +1,12 @@
+# frozen_string_literal: true
+
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "summarize-meeting/version"
+
 Gem::Specification.new do |s|
   s.name        = "summarize-meeting"
-  s.version     = "1.4.0"
+  s.version     = SummarizeMeeting::VERSION
   s.summary     = "A command line utility that summarizes a meeting"
   s.description = "A command line utility that summarizes a meeting using generative language models."
   s.license     = "MIT"
