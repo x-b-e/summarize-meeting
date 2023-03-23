@@ -105,6 +105,8 @@ VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
   config.configure_rspec_metadata!
+  ENV["OPENAI_KEY"] ||= "set-me-to-record-new-requests"
+  ENV["OPENAI_ORG"] ||= "set-me-to-record-new-requests"
   config.filter_sensitive_data("<OPENAI_KEY>") { ENV["OPENAI_KEY"] }
   config.filter_sensitive_data("<OPENAI_ORG>") { ENV["OPENAI_ORG"] }
 
