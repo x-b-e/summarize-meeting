@@ -106,7 +106,7 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.configure_rspec_metadata!
   ENV["OPEN_AI_API_KEY"] ||= "set-me-to-record-new-requests"
-  ENV["OPEN_AI_ORGANIZATION_ID"] ||= "set-me-to-record-new-requests"
+  ENV["OPEN_AI_ORGANIZATION_ID"] ||= "optionally-set-me-to-record-new-requests"
   config.filter_sensitive_data("<OPEN_AI_API_KEY>") { ENV["OPEN_AI_API_KEY"] }
   config.filter_sensitive_data("<OPEN_AI_ORGANIZATION_ID>") { ENV["OPEN_AI_ORGANIZATION_ID"] }
 
