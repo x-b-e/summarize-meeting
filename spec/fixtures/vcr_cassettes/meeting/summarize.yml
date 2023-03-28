@@ -185,9 +185,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -370,9 +370,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -453,9 +453,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -679,9 +679,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -920,9 +920,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1083,9 +1083,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1182,9 +1182,9 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer <OPENAI_KEY>
+      - Bearer <OPEN_AI_API_KEY>
       Openai-Organization:
-      - "<OPENAI_ORG>"
+      - "<OPEN_AI_ORGANIZATION_ID>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:

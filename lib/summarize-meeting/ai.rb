@@ -25,15 +25,15 @@ module SummarizeMeeting
     end
 
     def access_token
-      @access_token ||= ENV.fetch("OPENAI_KEY") do
-        fail KeyError, "Set OPENAI_KEY in the the ENV or set access_token directly"
+      return @access_token if defined?(@access_token)
+      @access_token = ENV.fetch("OPEN_AI_API_KEY") do
+        fail KeyError, "Set OPEN_AI_API_KEY in the the ENV or set access_token directly"
       end
     end
 
     def organization_id
-      @organization_id ||= ENV.fetch("OPENAI_ORG") do
-        ENV["OPENAI_ORG"] = nil # is optional
-      end
+      return @organization_id if defined?(@organization_id)
+      @organization_id = ENV.fetch("OPEN_AI_ORGANIZATION_ID", nil)
     end
 
     def access_token=(token)

@@ -19,8 +19,8 @@ Input a meeting transcript and output a summary.
 #### Options
 
 `-o, --output-file FILE` - Path to the output file. By default, it will be the `${input-file}-summary.txt`
-`-k, --openai-key KEY` - The OpenAI API Key. Can also be set via `ENV["OPENAI_KEY"]`.
-`-g, --openai-org ORG` - The OpenAI org id (optional). It can also be set via `ENV["OPENAI_ORG"]` .
+`-k, --openai-key KEY` - The OpenAI API Key. Can also be set via `ENV["OPEN_AI_API_KEY"]`.
+`-g, --openai-org ORG` - The OpenAI org id (optional). It can also be set via `ENV["OPEN_AI_ORGANIZATION_ID"]` .
 
 ## Example
 
