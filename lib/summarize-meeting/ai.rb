@@ -32,7 +32,7 @@ module SummarizeMeeting
 
     def organization_id
       @organization_id ||= ENV.fetch("OPENAI_ORG") do
-        fail KeyError, "Set OPENAI_ORG in the the ENV or set organization_id directly"
+        ENV["OPENAI_ORG"] = nil # is optional
       end
     end
 
