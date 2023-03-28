@@ -105,14 +105,14 @@ VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
   config.configure_rspec_metadata!
-  ENV["OPENAI_KEY"] ||= "set-me-to-record-new-requests"
-  ENV["OPENAI_ORG"] ||= "set-me-to-record-new-requests"
-  config.filter_sensitive_data("<OPENAI_KEY>") { ENV["OPENAI_KEY"] }
-  config.filter_sensitive_data("<OPENAI_ORG>") { ENV["OPENAI_ORG"] }
+  ENV["OPEN_AI_API_KEY"] ||= "set-me-to-record-new-requests"
+  ENV["OPEN_AI_ORGANIZATION_ID"] ||= "set-me-to-record-new-requests"
+  config.filter_sensitive_data("<OPEN_AI_API_KEY>") { ENV["OPEN_AI_API_KEY"] }
+  config.filter_sensitive_data("<OPEN_AI_ORGANIZATION_ID>") { ENV["OPEN_AI_ORGANIZATION_ID"] }
 
   # config.before_record do |interaction|
   #   interaction.request.headers["Authorization"] = "REDACTED"
-  #   interaction.request.uri.gsub!(ENV["OPENAI_KEY"], "<OPENAI_KEY>")
-  #   interaction.response.body.gsub!(ENV["OPENAI_ORG"], "<OPENAI_ORG>")
+  #   interaction.request.uri.gsub!(ENV["OPEN_AI_API_KEY"], "<OPEN_AI_API_KEY>")
+  #   interaction.response.body.gsub!(ENV["OPEN_AI_ORGANIZATION_ID"], "<OPEN_AI_ORGANIZATION_ID>")
   # end
 end

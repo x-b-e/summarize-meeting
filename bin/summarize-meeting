@@ -18,16 +18,16 @@ def main
       options[:output_file] = file
     end
 
-    if ENV["OPENAI_API_KEY"]
-      options[:openai_key] = ENV["OPENAI_API_KEY"]
+    if ENV["OPEN_AI_API_KEY"]
+      options[:openai_key] = ENV["OPEN_AI_API_KEY"]
     end
 
     opts.on("-k", "--openai-key KEY", "The OpenAI API key to use") do |key|
       options[:openai_key] = key
     end
 
-    if ENV["OPENAI_ORG"]
-      options[:openai_org] = ENV["OPENAI_ORG"]
+    if ENV["OPEN_AI_ORGANIZATION_ID"]
+      options[:openai_org] = ENV["OPEN_AI_ORGANIZATION_ID"]
     end
 
     opts.on("-g", "--openai-org ORG", "The OpenAI organization ID to use") do |org|
