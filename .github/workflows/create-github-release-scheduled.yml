@@ -1,0 +1,9 @@
+name: Create Github Release Scheduler
+
+on:
+  schedule:
+    - cron: '00 13 * * *'
+
+jobs:
+  run-create-github-release-action:
+    uses: x-b-e/internal_shared/.github/workflows/shared-create-github-release-scheduled.yml@main

@@ -1,0 +1,11 @@
+name: Create Github Release on Commit Message[create_release]
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-create-github-release-action:
+    if: "contains(github.event.head_commit.message, '[create_release]')"
+    uses: x-b-e/internal_shared/.github/workflows/shared-create-github-release-commit-message.yml@main
