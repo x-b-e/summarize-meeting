@@ -15,8 +15,6 @@ permissions:
 jobs:
   post-to-slack-release-notes-dev:
     uses: x-b-e/internal_shared/.github/workflows/shared-release-notes-daily.yml@main
-    with:
-      slack_channel_id: 'CB2PJRG1E'
-      report_title: 'Summarize Meeting Daily Release Notes'
+    with:      report_title: 'Summarize Meeting Daily Release Notes'
     secrets:
       SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
