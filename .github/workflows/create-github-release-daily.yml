@@ -1,0 +1,21 @@
+name: Create Github Release Daily (on schedule)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 13 * * *' #Daily
+
+permissions:
+  contents: write
+  packages: read
+  issues: read
+  pull-requests: read
+  repository-projects: read
+
+jobs:
+  post-to-slack-release-notes-dev:
+    uses: x-b-e/internal_shared/.github/workflows/shared-release-notes-daily.yml@main
+    with:
+      report_title: 'Summarize Meeting Daily Release Notes'
+    secrets:
+      SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
