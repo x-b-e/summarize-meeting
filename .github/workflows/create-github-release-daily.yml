@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   post-to-slack-release-notes-dev:
-    uses: x-b-e/internal_shared/.github/workflows/shared-release-notes-daily.yml@main
+    uses: x-b-e/internal_shared/.github/workflows/shared-release-notes-daily.yml@b58b9dfa58a1dafdb0093e21dc290f1c7dee5932
     with:
       report_title: 'Summarize Meeting Daily Release Notes'
     secrets:
